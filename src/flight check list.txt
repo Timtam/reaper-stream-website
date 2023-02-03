@@ -1,0 +1,5 @@
+1. Get Icecast online by opening RadioBroadcaster, check box in list to connect.
+2. Open OBS, hit start streaming check box, manage broadcast, hit Save and start streaming button to go online.
+3. Go to YouTube, Your Videos tab, choose video in table, expand details, then search page for Video Link.
+4. Either copy link and paste into the imbed section of live.html in the reaper-stream-website repo, or click link, hit share button when video loads, hit Imbed, then go down to Copy button a few lines below check boxes.
+5. Go to src folder of repo, rename live.html to index.html, git commit -a and then git push.
