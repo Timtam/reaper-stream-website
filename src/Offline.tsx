@@ -30,36 +30,44 @@ function Offline({ nextStream }: OfflineProps) {
   return (
     <>
       <Head title="REAPER Accessibility Meet-ups..." />
-	  <h1>Welcome to the live leg of REAPER Made Easy!</h1>
-        <p>
-		This is the landing page for meet-ups and live streams about REAPER accessibility. Seems nobody is streaming at the moment, but keep reading, there are useful things to be found here.
-		</p>
+      <h1>Welcome to the live leg of REAPER Made Easy!</h1>
+      <p>
+        This is the landing page for meet-ups and live streams about REAPER
+        accessibility. Seems nobody is streaming at the moment, but keep
+        reading, there are useful things to be found here.
+      </p>
       {nextStream && countdown ? (
-		<p>
+        <p>
           A live Q&A session will be starting in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
           })}
-			</p>
+        </p>
       ) : (
         ""
       )}
       <p>
-        This page should automatically update when the live session starts, but if you're sure something's starting right about now, you might want to hit refresh every few minutes just in case. That'll give any stray internet gremlins a bonk on the noggin and get you back on track.
+        This page should automatically update when the live session starts, but
+        if you're sure something's starting right about now, you might want to
+        hit refresh every few minutes just in case. That'll give any stray
+        internet gremlins a bonk on the noggin and get you back on track.
       </p>
       <h2>Next Meet-up: Saturday 25th February, 8PM UK, 3PM Eastern.</h2>
       <p>
         Join Scott and JennyK for "I'm Perplexed, What's Next?", an open Q&A for
         newcomers.
-		</p>
-		<p>
-		Questions big and small about REAPER, OSARA or anything 
-        around accessible recording are welcome.
       </p>
       <p>
-        Once the Q&A starts, there will be links to an accessible text chat where you can send us questions, and you'll be able to listen for answers right here in your browser. Or if you'd prefer chewing the fat with us in real-time, you can do that using
-        a free accessible app called TeamTalk.
+        Questions big and small about REAPER, OSARA or anything around
+        accessible recording are welcome.
+      </p>
+      <p>
+        Once the Q&A starts, there will be links to an accessible text chat
+        where you can send us questions, and you'll be able to listen for
+        answers right here in your browser. Or if you'd prefer chewing the fat
+        with us in real-time, you can do that using a free accessible app called
+        TeamTalk.
       </p>
       <p>
         <Link to="/TTQuickstart">Here's a collection of TeamTalk tips,</Link>{" "}
@@ -67,7 +75,8 @@ function Offline({ nextStream }: OfflineProps) {
         your settings.
       </p>
       <h2>
-        Even if you can't make the live session, you can still send us a question.
+        Even if you can't make the live session, you can still send us a
+        question.
       </h2>
       <p>
         There's no such thing as a single time that'll suit everyone all over
@@ -75,10 +84,10 @@ function Offline({ nextStream }: OfflineProps) {
         affordable), we've got a form where you can send us a question.
       </p>
       <p>
-        Please only use the form if you won't be able to attend live.
-        We'll record the part of the meet-up where we answer questions that have been sent in
-        from people who couldn't make it along, then post a recording on RWP soon
-        after.
+        Please only use the form if you won't be able to attend live. We'll
+        record the part of the meet-up where we answer questions that have been
+        sent in from people who couldn't make it along, then post a recording on
+        RWP soon after.
       </p>
       <p>
         <a
@@ -89,28 +98,30 @@ function Offline({ nextStream }: OfflineProps) {
           Send us a question.
         </a>
       </p>
-	  <h3>Study up while you're waiting...</h3>
-	  <p>
+      <h3>Study up while you're waiting...</h3>
+      <p>
         <a
           href="https://theglobalvoice.info/reaper"
           target="_blank"
           rel="noreferrer"
         >
-          Visit the REAPER Made Easy project for tutorials and recordings of previous streams.
+          Visit the REAPER Made Easy project for tutorials and recordings of
+          previous streams.
         </a>{" "}
       </p>
-	  <p>
-	  Thanks to TGV Productions, all the goodies you'll find there are free for
-          the taking.
-		  </p>
+      <p>
+        Thanks to TGV Productions, all the goodies you'll find there are free
+        for the taking.
+      </p>
       {nextStream && countdown ? (
-		<p>
+        <p>
           That's all for now. See ya in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
-          })}{"!"}
-			</p>
+          })}
+          {"!"}
+        </p>
       ) : (
         ""
       )}
