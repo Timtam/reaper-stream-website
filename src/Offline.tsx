@@ -1,5 +1,6 @@
 import humanizeDuration from "humanize-duration";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Head from "./Head";
 
 interface OfflineProps {
@@ -64,9 +65,9 @@ function Offline({ nextStream }: OfflineProps) {
         a free accessible app called TeamTalk.
       </p>
       <p>
-        <a href="/TTQuickstart">Here's a collection of TeamTalk tips,</a> useful
-        nuggets whether you're a first-timer or you'd like to spruce up your
-        settings.
+        <Link to="/TTQuickstart">Here's a collection of TeamTalk tips,</Link>{" "}
+        useful nuggets whether you're a first-timer or you'd like to spruce up
+        your settings.
       </p>
       <h2>
         Even if you can't make the live session, you can still send us a question.
