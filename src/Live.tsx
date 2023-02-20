@@ -121,13 +121,13 @@ function Live({ ytUrl }: LiveProps) {
           the taking!
         </a>{" "}
       </p>
-      <h3>Credits and Support</h3>
+      <h3>Shout-outs to some fine folk</h3>
       <p>
         Huge thanks to TGV Productions for sponsoring these sessions, to
         Toni Barth for the back-end bolstering, to Patrick Perdue for the
         Icecast stream, and to Day Garwood for the TeamTalk server. You wouldn't
-        be hearing us today without support from
-        these people, the fineest of folk.
+        be hearing us today without sponsorship and support from
+        these people.
       </p>
     </>
   );

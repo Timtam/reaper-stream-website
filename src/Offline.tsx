@@ -30,26 +30,23 @@ function Offline({ nextStream }: OfflineProps) {
   return (
     <>
       <Head title="REAPER Accessibility Meet-ups..." />
-      {nextStream && countdown ? (
+	  <h1>Welcome to the live leg of REAPER Made Easy!</h1>
         <p>
-          <h1>Next Q&A session starts in{" "}
+		This is the landing page for meet-ups and live streams about REAPER accessibility. Seems nobody is streaming at the moment, but keep reading, there are useful things to be found here.
+		</p>
+      {nextStream && countdown ? (
+		<p>
+          A live Q&A session will be starting in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
-          })}</h1>
-        </p>
+          })}
+			</p>
       ) : (
         ""
       )}
       <p>
-        This is the landing page for meet-ups about REAPER
-        accessibility. You're probably seeing this page instead of a live stream
-        because there's nothing happening at the moment.
-      </p>
-      <p>
-        If you're sure something is starting right now though, your browser
-        might be displaying a cached version of the page by mistake. Hit
-        refresh, that should get you back on track.
+        This page should automatically update when the live session starts, but if you're sure something's starting right about now, you might want to hit refresh every few minutes just in case. That'll give any stray internet gremlins a bonk on the noggin and get you back on track.
       </p>
       <h2>Next Meet-up: Saturday 25th February, 8PM UK, 3PM Eastern.</h2>
       <p>
@@ -61,7 +58,7 @@ function Offline({ nextStream }: OfflineProps) {
         around accessible recording are welcome.
       </p>
       <p>
-        Once the Q&A starts, this page will automagically change. There will be links to an accessible text chat where you can send us questions and you'll be able to listen for answers right here in your browser. Or if you'd prefer chewing the fat with us in real-time, you can do that using
+        Once the Q&A starts, there will be links to an accessible text chat where you can send us questions, and you'll be able to listen for answers right here in your browser. Or if you'd prefer chewing the fat with us in real-time, you can do that using
         a free accessible app called TeamTalk.
       </p>
       <p>
@@ -81,7 +78,7 @@ function Offline({ nextStream }: OfflineProps) {
         Please only use the form if you won't be able to attend live.
         We'll record the part of the meet-up where we answer questions that have been sent in
         from people who couldn't make it along, then post a recording on RWP soon
-        after each meet-up.
+        after.
       </p>
       <p>
         <a
@@ -92,6 +89,31 @@ function Offline({ nextStream }: OfflineProps) {
           Send us a question.
         </a>
       </p>
+	  <h3>Study up while you're waiting...</h3>
+	  <p>
+        <a
+          href="https://theglobalvoice.info/reaper"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Visit the REAPER Made Easy project for tutorials and recordings of previous streams.
+        </a>{" "}
+      </p>
+	  <p>
+	  Thanks to TGV Productions, all the goodies you'll find there are free for
+          the taking.
+		  </p>
+      {nextStream && countdown ? (
+		<p>
+          That's all for now. See ya in{" "}
+          {humanizeDuration(countdown, {
+            units: ["w", "d", "h", "m"],
+            round: true,
+          })}{"!"}
+			</p>
+      ) : (
+        ""
+      )}
     </>
   );
 }
