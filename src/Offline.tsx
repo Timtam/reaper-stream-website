@@ -29,20 +29,19 @@ function Offline({ nextStream }: OfflineProps) {
   return (
     <>
       <Head title="REAPER Accessibility Meet-ups..." />
-      <h1>We're not live, but there's still useful stuff here...</h1>
       {nextStream && countdown ? (
         <p>
-          Next stream will happen in:{" "}
+          <h1>Next Q&A session starts in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
-          })}
+          })}</h1>
         </p>
       ) : (
         ""
       )}
       <p>
-        This is the landing page for Scott's meet-ups about REAPER
+        This is the landing page for meet-ups about REAPER
         accessibility. You're probably seeing this page instead of a live stream
         because there's nothing happening at the moment.
       </p>
@@ -54,12 +53,14 @@ function Offline({ nextStream }: OfflineProps) {
       <h2>Next Meet-up: Saturday 25th February, 8PM UK, 3PM Eastern.</h2>
       <p>
         Join Scott and JennyK for "I'm Perplexed, What's Next?", an open Q&A for
-        newcomers. Questions big and small about REAPER, OSARA or anything else
+        newcomers.
+		</p>
+		<p>
+		Questions big and small about REAPER, OSARA or anything 
         around accessible recording are welcome.
       </p>
       <p>
-        Once the Q&A starts, you'll be able to send us questions via text and
-        listen for advice, or you can join us to chew the fat in real-time using
+        Once the Q&A starts, this page will automagically change. There will be links to an accessible text chat where you can send us questions and you'll be able to listen for answers right here in your browser. Or if you'd prefer chewing the fat with us in real-time, you can do that using
         a free accessible app called TeamTalk.
       </p>
       <p>
@@ -68,7 +69,7 @@ function Offline({ nextStream }: OfflineProps) {
         settings.
       </p>
       <h2>
-        If you can't make it when we're live, you can still send us a question.
+        Even if you can't make the live session, you can still send us a question.
       </h2>
       <p>
         There's no such thing as a single time that'll suit everyone all over
@@ -76,9 +77,9 @@ function Offline({ nextStream }: OfflineProps) {
         affordable), we've got a form where you can send us a question.
       </p>
       <p>
-        Please only send questions this way if you won't be able to attend live.
-        We'll record the part of the meet-up where we answer questions sent in
-        from people who couldn't make it, then post a recording on RWP soon
+        Please only use the form if you won't be able to attend live.
+        We'll record the part of the meet-up where we answer questions that have been sent in
+        from people who couldn't make it along, then post a recording on RWP soon
         after each meet-up.
       </p>
       <p>

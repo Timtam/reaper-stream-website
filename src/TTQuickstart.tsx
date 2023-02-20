@@ -126,12 +126,12 @@ function TTQuickstart() {
       <p>Ports: 50000</p>
       <p>Channel: REAPER Live Meet-up</p>
       <p>
-        Or, here's a link that should drop you straight into the channel
-        (hopefully respecting all your existing settings):
+        If you're running a standard install (IE not portable), here's a link that should drop you straight into the channel,
+       respecting your existing settings:
       </p>
       <p>
         <a href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F">
-          Join our channel using your existing settings
+          Join the REAPER Live Meet-ups channel using your existing settings
         </a>
       </p>
       <h2>Still Stuck? No Worries.</h2>

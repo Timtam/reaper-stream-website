@@ -41,7 +41,7 @@ function Live({ ytUrl }: LiveProps) {
         checked Foobar2000, VLC and Winamp, any of those should work.
       </p>
       <p>https://laca.borris.me/reaperlive</p>
-      <h2>Wanna ask a question?</h2>
+      <h2>Wanna ask us a question?</h2>
       <p>
         The easiest way to get a question to us is by using the accessible chat
         right here in your browser
@@ -85,45 +85,49 @@ function Live({ ytUrl }: LiveProps) {
           </a>
         </li>
       </ol>
+	  <p>
+	  Are you scrambling to figure out TeamTalk at the last minute? We've got your back, Jack!
+	  </p>
+	  <p>
+	  <a href="/TTQuickstart">Here's a collection of TeamTalk tips,</a>
+	  </p>
       <h2>We're live on YouTube as well!</h2>
       <p>
-        We're streaming audio live on YouTube as a backup. Listening in that way
-        has a longer delay, but hey, if none of the options above have worked
+        We're streaming audio live on YouTube as a backup. It has a longer delay, but hey, if none of the options above have worked
         out for you, this one probably will.
       </p>
       <p>
-        Hit the Play button below to listen on YouTube. Note that at the moment,
-        we don't monitor YouTube live chat, please use the chat option further
-        up this page instead to reach us.
+        Note that at the moment,
+        we don't monitor YouTube live chat for questions. Please use the chat option further
+        up the page instead.
       </p>
       <iframe
         width="560"
         height="315"
         src={ytUrl}
-        title="YouTube video player"
+        title="Listen live using YouTube"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       ></iframe>
-      <h3>Credits and Support</h3>
-      <p>
-        Huge thanks to TGV Productions for sponsoring these live streams, to
-        Toni Barth for the back-end bolstering, to Patrick Perdue for the
-        Icecast stream, and to Day Garwood for the TeamTalk server. You wouldn't
-        be hearing us at all if it weren't for the genorosity and favours from
-        these fineest of folk.
-      </p>
+	  <h3>Hungry for more?</h3>
       <p>
         <a
           href="https://theglobalvoice.info/reaper"
           target="_blank"
           rel="noreferrer"
         >
-          Visit the REAPER Made Easy project for more goodies that are free for
-          the taking,
+          Visit the REAPER Made Easy project for more educational goodies. They're all free for
+          the taking!
         </a>{" "}
-        and if it's comfortable for you to do so, feel free to help top up the
-        sponsorship pot when you get there so we can keep the content coming!
+      </p>
+      <h3>Credits and Support</h3>
+      <p>
+        Huge thanks to TGV Productions for sponsoring these sessions, to
+        Toni Barth for the back-end bolstering, to Patrick Perdue for the
+        Icecast stream, and to Day Garwood for the TeamTalk server. You wouldn't
+        be hearing us today without support from
+        these people, the fineest of folk.
       </p>
     </>
   );
