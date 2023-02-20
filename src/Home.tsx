@@ -37,7 +37,7 @@ function Home() {
   if (loading) return <Loading />;
 
   if (live) return <Live ytUrl={config.ytUrl} />;
-  else return <Offline />;
+  else return <Offline nextStream={config.nextStream} />;
 }
 
 export default Home;

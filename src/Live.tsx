@@ -25,7 +25,7 @@ function Live({ ytUrl }: LiveProps) {
         <a
           href="https://laca.borris.me/reaperlive"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           Listen to the stream on mobile.
         </a>
@@ -47,7 +47,11 @@ function Live({ ytUrl }: LiveProps) {
         right here in your browser
       </p>
       <p>
-        <a href="https://chat.toni-barth.online/reaper" target="_blank">
+        <a
+          href="https://chat.toni-barth.online/reaper"
+          target="_blank"
+          rel="noreferrer"
+        >
           Join the text chat to type questions
         </a>
       </p>
@@ -62,7 +66,7 @@ function Live({ ytUrl }: LiveProps) {
           <a
             href="https://bearware.dk/?page_id=353"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             Download and install TeamTalk.
           </a>
@@ -113,7 +117,7 @@ function Live({ ytUrl }: LiveProps) {
         <a
           href="https://theglobalvoice.info/reaper"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           Visit the REAPER Made Easy project for more goodies that are free for
           the taking,

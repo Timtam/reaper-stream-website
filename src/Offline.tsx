@@ -1,10 +1,46 @@
+import humanizeDuration from "humanize-duration";
+import { useEffect, useState } from "react";
 import Head from "./Head";
 
-function Offline() {
+interface OfflineProps {
+  nextStream?: string;
+}
+
+function Offline({ nextStream }: OfflineProps) {
+  let [countdown, setCountdown] = useState(undefined as undefined | number);
+
+  useEffect(() => {
+    let interval: ReturnType<typeof setInterval> | undefined = undefined;
+
+    if (nextStream) {
+      let targetDate = Date.parse(nextStream);
+      if (targetDate - Date.now() >= 0) {
+        interval = setInterval(() => {
+          setCountdown(targetDate - Date.now());
+        }, 1000);
+      }
+    }
+
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [nextStream]);
+
   return (
     <>
       <Head title="REAPER Accessibility Meet-ups..." />
       <h1>We're not live, but there's still useful stuff here...</h1>
+      {nextStream && countdown ? (
+        <p>
+          Next stream will happen in:{" "}
+          {humanizeDuration(countdown, {
+            units: ["w", "d", "h", "m"],
+            round: true,
+          })}
+        </p>
+      ) : (
+        ""
+      )}
       <p>
         This is the landing page for Scott's meet-ups about REAPER
         accessibility. You're probably seeing this page instead of a live stream
@@ -27,11 +63,9 @@ function Offline() {
         a free accessible app called TeamTalk.
       </p>
       <p>
-        <a href="/TTQuickstart">
-          Here's a collection of TeamTalk tips,
-        </a>{" "}
-        useful nuggets whether you're a first-timer or you'd like to spruce up
-        your settings.
+        <a href="/TTQuickstart">Here's a collection of TeamTalk tips,</a> useful
+        nuggets whether you're a first-timer or you'd like to spruce up your
+        settings.
       </p>
       <h2>
         If you can't make it when we're live, you can still send us a question.
