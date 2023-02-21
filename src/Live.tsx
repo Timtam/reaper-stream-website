@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Head from "./Head";
 
 interface LiveProps {
@@ -85,21 +86,22 @@ function Live({ ytUrl }: LiveProps) {
           </a>
         </li>
       </ol>
-	  <p>
-	  Are you scrambling to figure out TeamTalk at the last minute? We've got your back, Jack!
-	  </p>
-	  <p>
-	  <a href="/TTQuickstart">Here's a collection of TeamTalk tips,</a>
-	  </p>
-      <h2>We're live on YouTube as well!</h2>
       <p>
-        We're streaming audio live on YouTube as a backup. It has a longer delay, but hey, if none of the options above have worked
-        out for you, this one probably will.
+        Are you scrambling to figure out TeamTalk at the last minute? We've got
+        your back, Jack!
       </p>
       <p>
-        Note that at the moment,
-        we don't monitor YouTube live chat for questions. Please use the chat option further
-        up the page instead.
+        <Link to="/TTQuickstart">Here's a collection of TeamTalk tips,</Link>
+      </p>
+      <h2>We're live on YouTube as well!</h2>
+      <p>
+        We're streaming audio live on YouTube as a backup. It has a longer
+        delay, but hey, if none of the options above have worked out for you,
+        this one probably will.
+      </p>
+      <p>
+        Note that at the moment, we don't monitor YouTube live chat for
+        questions. Please use the chat option further up the page instead.
       </p>
       <iframe
         width="560"
@@ -110,24 +112,23 @@ function Live({ ytUrl }: LiveProps) {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       ></iframe>
-	  <h3>Hungry for more?</h3>
+      <h3>Hungry for more?</h3>
       <p>
         <a
           href="https://theglobalvoice.info/reaper"
           target="_blank"
           rel="noreferrer"
         >
-          Visit the REAPER Made Easy project for more educational goodies. They're all free for
-          the taking!
+          Visit the REAPER Made Easy project for more educational goodies.
+          They're all free for the taking!
         </a>{" "}
       </p>
       <h3>Shout-outs to some fine folk</h3>
       <p>
-        Huge thanks to TGV Productions for sponsoring these sessions, to
-        Toni Barth for the back-end bolstering, to Patrick Perdue for the
-        Icecast stream, and to Day Garwood for the TeamTalk server. You wouldn't
-        be hearing us today without sponsorship and support from
-        these people.
+        Huge thanks to TGV Productions for sponsoring these sessions, to Toni
+        Barth for the back-end bolstering, to Patrick Perdue for the Icecast
+        stream, and to Day Garwood for the TeamTalk server. You wouldn't be
+        hearing us today without sponsorship and support from these people.
       </p>
     </>
   );
