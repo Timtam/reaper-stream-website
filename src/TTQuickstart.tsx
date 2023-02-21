@@ -4,7 +4,14 @@ function TTQuickstart() {
   return (
     <>
       <Head title="TeamTalk Quickstart" />
-      <h1>Tips for getting TeamTalk up and running</h1>
+      <h1
+        tabIndex={-1}
+        ref={(e) => {
+          if (e) e.focus();
+        }}
+      >
+        Tips for getting TeamTalk up and running
+      </h1>
       <p>
         You're welcome to join us on TeamTalk during meet-ups. That way, you can
         chat with us using your voice and we'll likely be able to get deeper

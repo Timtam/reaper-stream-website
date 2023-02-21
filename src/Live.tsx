@@ -9,7 +9,14 @@ function Live({ ytUrl }: LiveProps) {
   return (
     <>
       <Head title="REAPER Accessibility Q&A for newcomers" />
-      <h1>We're online! All systems are go (so far as we know)</h1>
+      <h1
+        tabIndex={-1}
+        ref={(e) => {
+          if (e) e.focus();
+        }}
+      >
+        We're online! All systems are go (so far as we know)
+      </h1>
       <p>
         Welcome to February's edition of I'm Perplexed, What's Next? If you're
         new to REAPER, this is where you can ask questions. Whatever is on your

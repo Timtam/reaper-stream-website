@@ -9,6 +9,7 @@ interface OfflineProps {
 
 function Offline({ nextStream }: OfflineProps) {
   let [countdown, setCountdown] = useState(undefined as undefined | number);
+  let [opened, setOpened] = useState(false);
 
   useEffect(() => {
     let interval: ReturnType<typeof setInterval> | undefined = undefined;
@@ -30,7 +31,17 @@ function Offline({ nextStream }: OfflineProps) {
   return (
     <>
       <Head title="REAPER Accessibility Meet-ups..." />
-      <h1>Welcome to the live leg of REAPER Made Easy!</h1>
+      <h1
+        tabIndex={-1}
+        ref={(e) => {
+          if (e && !opened) {
+            e.focus();
+            setOpened(true);
+          }
+        }}
+      >
+        Welcome to the live leg of REAPER Made Easy!
+      </h1>
       <p>
         This is the landing page for meet-ups and live streams about REAPER
         accessibility. Seems nobody is streaming at the moment, but keep
