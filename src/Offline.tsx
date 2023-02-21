@@ -30,19 +30,12 @@ function Offline({ nextStream }: OfflineProps) {
   return (
     <>
       <Head title="REAPER Accessibility Meet-ups..." />
-<<<<<<< HEAD
-	  <h1>Welcome to the live leg of REAPER Made Easy!</h1>
-        <p>
-		This is the landing page for meet-ups and live streams about REAPER accessibility. Nobody is streaming at the moment, but keep reading, there are useful things to be found here.
-		</p>
-=======
       <h1>Welcome to the live leg of REAPER Made Easy!</h1>
       <p>
         This is the landing page for meet-ups and live streams about REAPER
         accessibility. Seems nobody is streaming at the moment, but keep
         reading, there are useful things to be found here.
       </p>
->>>>>>> 48abec30b82df1a7561d30572ee38fe25d3f6214
       {nextStream && countdown ? (
         <p>
           A live Q&A session will be starting in{" "}
@@ -65,23 +58,10 @@ function Offline({ nextStream }: OfflineProps) {
         Join Scott and JennyK for "I'm Perplexed, What's Next?", an open Q&A for
         newcomers.
       </p>
-<<<<<<< HEAD
-	  <p>
-	  <a
-          href="/REAPERMadeEasyMeet-ups.ics"
-          target="_blank"
-          rel="noreferrer"
-        >
+      <p>
+        <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">
           Add the meet-up to your calendar.
         </a>
-		</p>
-	  <p>
-        Once the Q&A starts, there will be links to an accessible text chat where you can send us questions, and you'll be able to listen for answers right here in your browser. Or if you'd prefer chewing the fat with us in real-time, you can do that using
-        a free accessible app called TeamTalk.
-=======
-      <p>
-        Questions big and small about REAPER, OSARA or anything around
-        accessible recording are welcome.
       </p>
       <p>
         Once the Q&A starts, there will be links to an accessible text chat
@@ -89,7 +69,6 @@ function Offline({ nextStream }: OfflineProps) {
         answers right here in your browser. Or if you'd prefer chewing the fat
         with us in real-time, you can do that using a free accessible app called
         TeamTalk.
->>>>>>> 48abec30b82df1a7561d30572ee38fe25d3f6214
       </p>
       <p>
         <Link to="/TTQuickstart">Here's a collection of TeamTalk tips,</Link>{" "}
@@ -111,23 +90,17 @@ function Offline({ nextStream }: OfflineProps) {
         sent in from people who couldn't make it along, then post a recording on
         RWP soon after.
       </p>
-	  <p>
-	  <a
+      <p>
+        <a
           href="https://forms.office.com/r/T6wuYY7jE1"
           target="_blank"
           rel="noreferrer"
         >
           Send us a question.
         </a>
-<<<<<<< HEAD
-		</p>
-	  <h3>Study up while you're waiting...</h3>
-	  <p>
-=======
       </p>
       <h3>Study up while you're waiting...</h3>
       <p>
->>>>>>> 48abec30b82df1a7561d30572ee38fe25d3f6214
         <a
           href="https://theglobalvoice.info/reaper"
           target="_blank"
