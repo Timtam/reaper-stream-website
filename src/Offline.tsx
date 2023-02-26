@@ -44,8 +44,8 @@ function Offline({ nextStream }: OfflineProps) {
       </h1>
       <p>
         This is the landing page for meet-ups and live streams about REAPER
-        accessibility. Nobody is streaming at the moment, but keep
-        reading for details of the next event.
+        accessibility. Nobody is streaming at the moment, but keep reading for
+        details of the next event.
       </p>
       {nextStream && countdown ? (
         <p>
