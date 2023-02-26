@@ -113,7 +113,7 @@ function Live({ ytUrl }: LiveProps) {
       <iframe
         width="560"
         height="315"
-        src=https://www.youtube.com/live/XYOqtlZvnDE
+        src={ytUrl}
         title="Listen live using YouTube"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
