@@ -1,5 +1,9 @@
-1. Get Icecast online by opening RadioBroadcaster, check box in list to connect.
-2. Open OBS, hit start streaming check box, manage broadcast, hit Save and start streaming button to go online.
-3. Go to YouTube, Your Videos tab, choose video in table, expand details, then search page for Video Link.
-4. Either copy link and paste into the imbed section of live.html in the reaper-stream-website repo, or click link, hit share button when video loads, hit Imbed, then go down to Copy button a few lines below check boxes.
-5. Go to src folder of repo, rename live.html to index.html, git commit -a and then git push.
+1. Open OBS, hit "Start streaming" check box, choose "Manage Broadcast", fill out meta data, then hit "Save and start streaming" button to go live on YouTube.
+2. Load YouTube in browser, click "Your Videos" tab, click "Live", choose video in table, expand details, then search page for Video Link.
+Note: you want the embed link, not the live one. Format looks like this:
+www.youtube.com/embed/blah
+3. Insert the embed URL into src/config.json. Note that if it's been quicker to get the live URL on clipboard, you can just change /live/blah to /embed/blah after pasting.
+4. Do npm start to check everything compiles locally. Put localhost:3000/live in browser address bar to see the live page.
+Note: if using Firefox to preview, load a new instance of the browser, hopping pages doesn't seem to work in the same instance. It does in Chrome though.
+5. git commit the updated URL once everything seems right, then git push.
+6. Go live on IceCast.
