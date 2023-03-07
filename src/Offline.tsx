@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          A live Q&A session will be starting in{" "}
+          We'll be making beats live with PDexInTheLab, starting in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -64,10 +64,9 @@ function Offline({ nextStream }: OfflineProps) {
         hit refresh every few minutes just in case. That'll give any stray
         internet gremlins a bonk on the noggin and get you back on track.
       </p>
-      <h2>Next Meet-up: Saturday 25th February, 8PM UK, 3PM Eastern.</h2>
+      <h2>Next Meet-up: Saturday 11th March, 8PM UK, 3PM Eastern.</h2>
       <p>
-        Join Scott and JennyK for "I'm Perplexed, What's Next?", an open Q&A for
-        newcomers.
+        Listen in and ask questions as PDexInTheLab (the self-proclaimed laziest producer in the world) whips up a treat of a beat. We'll be warming up by listening to a few of his recent productions and getting the skinny on how he always plays to enjoy.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">
@@ -75,7 +74,7 @@ function Offline({ nextStream }: OfflineProps) {
         </a>
       </p>
       <p>
-        Once the Q&A starts, there will be links to an accessible text chat
+        Once the stream starts, there will be links to an accessible text chat
         where you can send us questions, and you'll be able to listen for
         answers right here in your browser. Or if you'd prefer chewing the fat
         with us in real-time, you can do that using a free accessible app called
@@ -97,7 +96,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       <p>
         Please only use the form if you won't be able to attend live. We'll
-        record the part of the meet-up where we answer questions that have been
+        record the part of the meet-up where we answer questions relevant to the topic we're covering that have been
         sent in from people who couldn't make it along, then post a recording on
         RWP soon after.
       </p>

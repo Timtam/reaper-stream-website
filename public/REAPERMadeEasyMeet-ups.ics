@@ -42,10 +42,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 CREATED:20230221T011500Z
-LAST-MODIFIED:20230221T012227Z
-DTSTAMP:20230221T012227Z
+LAST-MODIFIED:20230225T192219Z
+DTSTAMP:20230225T192219Z
 UID:1ac3d165-605c-4f6e-bfcf-3c3cff6ccecb
 SUMMARY:I'm Perplexed\, What's Next? Live REAPER Q&A for newcomers.
+X-MOZ-LASTACK:20230225T192219Z
 DTSTART;TZID=Europe/London:20230225T200000
 DTEND;TZID=Europe/London:20230225T220000
 TRANSP:OPAQUE
@@ -56,6 +57,28 @@ DESCRIPTION;ALTREP="data:text/html,%3Cbody%3E%0A%3Cdiv%3ELive%20Q%26amp%3BA
  e%20welcome.%3C%2Fdiv%3E%0A%3C%2Fbody%3E":Live Q&A hosted by Scott and Jenn
  yK.\nQuestions about REAPER\, OSARA\, or anything around accessible recordi
  ng are welcome.\n
+X-MOZ-GENERATION:1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Default Mozilla Description
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230307T090249Z
+LAST-MODIFIED:20230307T090927Z
+DTSTAMP:20230307T090927Z
+UID:e9331205-8dcd-4852-b5d6-3532f32c748c
+SUMMARY:REAPER Accessibility Meet-up: Making Beats with PDexInTheLab
+DTSTART;TZID=Europe/London:20230311T200000
+DTEND;TZID=Europe/London:20230311T220000
+TRANSP:OPAQUE
+LOCATION:https://reaperteacher.com
+DESCRIPTION;ALTREP="data:text/html,%3Cbody%3ECome%20along%20and%20listen%20
+ in%20as%20PDexInTheLab%20(the%20self-proclaimed%20%0Alaziest%20producer%20i
+ n%20the%20world)%20whips%20up%20a%20treat%20of%20a%20beat.%3C%2Fbody%3E":Co
+ me along and listen in as PDexInTheLab (the self-proclaimed laziest produce
+ r\nin the world) whips up a treat of a beat.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
