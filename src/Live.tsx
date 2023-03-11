@@ -18,8 +18,7 @@ function Live({ ytUrl }: LiveProps) {
         We're online! All systems are go (so far as we know)
       </h1>
       <p>
-        Welcome to PDexInTheLab's Lab, where PDexInTheLab is the lab rat, you are visiting scientists, and I'm not managing to get beyond the temptation of overusing the lab thing yet.
-        Today's session is all about loop-based music-making. We'll be observing PDex in situ as he hunts for ingredients and throws them together, folding in some of his special sauce along the way. It'll probably be Trap, it's definitely gonna slap (but then, even if it's UK Drill, I'm pretty sure it still will).
+        Welcome to March's stream, a march through the OSARA Configuration dialog. Today we're gonna be going through that sucker one option at a time, giving you a practical demo of the difference each option makes so you can tweak OSARA to your liking. Listen in, follow along, and of course, there'll be regular breaks for questions.
       </p>
       <p>
         Jumping by heading will move through the various ways you can get in on
@@ -86,8 +85,15 @@ function Live({ ytUrl }: LiveProps) {
             href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
             rel="noopener"
           >
-            Click here to get a TT file that'll drop you straight into the
-            channel with us.
+            Click here to join the REAPER Live Meet-ups channel on a desktop or laptop.
+          </a>
+        </li>
+        <li>
+          <a
+            href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F"
+            
+          >
+            Click here to join the REAPER Live Meet-ups channel on a mobile device.
           </a>
         </li>
       </ol>

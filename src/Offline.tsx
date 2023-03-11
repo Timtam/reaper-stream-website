@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          We'll be making beats live with PDexInTheLab, starting in{" "}
+          We'll be taking a trip through the OSARA Configuration dialog with a practical demonstration of every option, starting in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -66,7 +66,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       <h2>Next Meet-up: Saturday 11th March, 8PM UK, 3PM Eastern.</h2>
       <p>
-        Listen in and ask questions as PDexInTheLab (the self-proclaimed laziest producer in the world) whips up a treat of a beat. We'll be warming up by listening to a few of his recent productions and getting the skinny on how he always plays to enjoy.
+        Listen in and follow along as Scott and JennyK take a trip through the OSARA Configuration dialog, demonstrating the difference each option can make to your workflows. With a bit of tweaking, OSARA can speak the stuff that's useful for what you do, and skip the stuff that isn't.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">
