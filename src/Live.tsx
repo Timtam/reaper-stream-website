@@ -8,7 +8,7 @@ interface LiveProps {
 function Live({ ytUrl }: LiveProps) {
   return (
     <>
-      <Head title="REAPER Accessibility: we're Live with PDexInTheLab" />
+      <Head title="REAPER Accessibility Q&A for newcomers" />
       <h1
         tabIndex={-1}
         ref={(e) => {
@@ -18,7 +18,10 @@ function Live({ ytUrl }: LiveProps) {
         We're online! All systems are go (so far as we know)
       </h1>
       <p>
-        Welcome to March's stream, a march through the OSARA Configuration dialog. Today we're gonna be going through that sucker one option at a time, giving you a practical demo of the difference each option makes so you can tweak OSARA to your liking. Listen in, follow along, and of course, there'll be regular breaks for questions.
+        Welcome to March's edition of I'm Perplexed, What's Next? If you're
+        new to REAPER, this is where you can ask questions. Whatever is on your
+        mind, be it questions big or small, if it's about REAPER, OSARA or
+        accessible recording then we'll be happy to help.
       </p>
       <p>
         Jumping by heading will move through the various ways you can get in on
@@ -48,7 +51,7 @@ function Live({ ytUrl }: LiveProps) {
       <p>https://laca.borris.me/reaperlive</p>
       <h2>Wanna ask us a question?</h2>
       <p>
-        We'll be taking periodic breaks throughout the stream for questions, comments and discussion. You can get a question to us using the accessible chat
+        The easiest way to get a question to us is by using the accessible chat
         right here in your browser
       </p>
       <p>
@@ -85,15 +88,8 @@ function Live({ ytUrl }: LiveProps) {
             href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
             rel="noopener"
           >
-            Click here to join the REAPER Live Meet-ups channel on a desktop or laptop.
-          </a>
-        </li>
-        <li>
-          <a
-            href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F"
-            
-          >
-            Click here to join the REAPER Live Meet-ups channel on a mobile device.
+            Click here to get a TT file that'll drop you straight into the
+            channel with us.
           </a>
         </li>
       </ol>
@@ -123,7 +119,7 @@ function Live({ ytUrl }: LiveProps) {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       ></iframe>
-      <h3>are you hungry for more?</h3>
+      <h3>Hungry for more?</h3>
       <p>
         <a
           href="https://theglobalvoice.info/reaper"

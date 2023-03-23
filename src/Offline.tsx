@@ -30,7 +30,7 @@ function Offline({ nextStream }: OfflineProps) {
 
   return (
     <>
-      <Head title="REAPER Accessibility Meet-ups..." />
+      <Head title="REAPER MADE Easy: Accessibility Meet-ups" />
       <h1
         tabIndex={-1}
         ref={(e) => {
@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          We'll be taking a trip through the OSARA Configuration dialog with a practical demonstration of every option, starting in{" "}
+          We'll be taking questions on REAPER, OSARA or anything around accessible recording starting in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -64,9 +64,9 @@ function Offline({ nextStream }: OfflineProps) {
         hit refresh every few minutes just in case. That'll give any stray
         internet gremlins a bonk on the noggin and get you back on track.
       </p>
-      <h2>Next Meet-up: Saturday 11th March, 8PM UK, 3PM Eastern.</h2>
+      <h2>Next Meet-up: Saturday 25th March, 8PM UK, 4PM Eastern.</h2>
       <p>
-        Listen in and follow along as Scott and JennyK take a trip through the OSARA Configuration dialog, demonstrating the difference each option can make to your workflows. With a bit of tweaking, OSARA can speak the stuff that's useful for what you do, and skip the stuff that isn't.
+        Ask questions and get advice  as Scott and JennyK take questions from the community, with priority on folks who are just getting started. Questions big or small about REAPER, OSARA or anything around accessible recording are welcome. With a bit of luck, we can help if you're stuck.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">

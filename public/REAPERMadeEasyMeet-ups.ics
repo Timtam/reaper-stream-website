@@ -66,10 +66,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 CREATED:20230307T090249Z
-LAST-MODIFIED:20230307T090927Z
-DTSTAMP:20230307T090927Z
+LAST-MODIFIED:20230311T190031Z
+DTSTAMP:20230311T190031Z
 UID:e9331205-8dcd-4852-b5d6-3532f32c748c
 SUMMARY:REAPER Accessibility Meet-up: Making Beats with PDexInTheLab
+X-MOZ-LASTACK:20230311T190031Z
 DTSTART;TZID=Europe/London:20230311T200000
 DTEND;TZID=Europe/London:20230311T220000
 TRANSP:OPAQUE
@@ -79,6 +80,32 @@ DESCRIPTION;ALTREP="data:text/html,%3Cbody%3ECome%20along%20and%20listen%20
  n%20the%20world)%20whips%20up%20a%20treat%20of%20a%20beat.%3C%2Fbody%3E":Co
  me along and listen in as PDexInTheLab (the self-proclaimed laziest produce
  r\nin the world) whips up a treat of a beat.
+X-MOZ-GENERATION:1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Default Mozilla Description
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230323T093150Z
+LAST-MODIFIED:20230323T093549Z
+DTSTAMP:20230323T093549Z
+UID:896f7c5b-79b3-44f1-9715-39be93d22f8e
+SUMMARY:"I'm Perplexed\, What's Next?" Live REAPER Accessibility Q&A
+DTSTART;TZID=Europe/London:20230325T200000
+DTEND;TZID=Europe/London:20230325T220000
+TRANSP:OPAQUE
+LOCATION:https://reaperteacher.com
+DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EJoin%20Scott%20and%20JennyK%20
+ for%20a%20live%20Q%26amp%3BA%20session%20on%20REAPER%2C%20OSARA%2C%0A%20or%
+ 20anything%20around%20accessible%20recording.%20Questions%20big%20or%20smal
+ l%20are%20%0Awelcome%2C%20particularly%20if%20you're%20just%20getting%20sta
+ rted.%20With%20a%20bit%20of%20%0Aluck%2C%20we%20can%20help%20if%20you're%20
+ stuck.%3C%2Fbody%3E":Join Scott and JennyK for a live Q&A session on REAPER
+ \, OSARA\, or anything\naround accessible recording. Questions big or small
+  are welcome\, particularly if\nyou're just getting started. With a bit of 
+ luck\, we can help if you're stuck.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
