@@ -8,7 +8,7 @@ interface LiveProps {
 function Live({ ytUrl }: LiveProps) {
   return (
     <>
-      <Head title="REAPER Accessibility Q&A for newcomers" />
+      <Head title="REAPER Accessibility Q&A" />
       <h1
         tabIndex={-1}
         ref={(e) => {
@@ -80,16 +80,14 @@ function Live({ ytUrl }: LiveProps) {
           </a>
         </li>
         <li>
-          If you're on a mobile device, search your Appstore for TeamTalk.
+           On a mobile device, search your Appstore for TeamTalk.
         </li>
         <li>
           Once you've got TeamTalk installed,{" "}
           <a
-            href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
-            rel="noopener"
+            href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F"
           >
-            Click here to get a TT file that'll drop you straight into the
-            channel with us.
+            Hit this link to join us in the REAPER Live Meet-up channel.
           </a>
         </li>
       </ol>
@@ -102,14 +100,13 @@ function Live({ ytUrl }: LiveProps) {
       </p>
       <h2>We're live on YouTube as well!</h2>
       <p>
-        We're streaming audio live on YouTube as a backup. It has a longer
+        We're streaming audio live on YouTube as a backup. It has a slightly longer
         delay, but hey, if none of the options above have worked out for you,
-        this one probably will.
+        it's worth a shot, YouTube works on pretty much everything.
       </p>
       <p>
-        Note that at the moment, we don't monitor YouTube live chat for
-        questions. Please use the chat option further up the page instead.
-      </p>
+              Feel fre to pop questions in YouTube chat, Shay will be watching.
+              </p>
       <iframe
         width="560"
         height="315"
