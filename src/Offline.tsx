@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          We'll be making beats with guest host PDexInTheLab, starting in{" "}
+          We'll be taking questions on REAPER, OSARA or anything around accessible recording starting in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -64,9 +64,9 @@ function Offline({ nextStream }: OfflineProps) {
         hit refresh every few minutes just in case. That'll give any stray
         internet gremlins a bonk on the noggin and get you back on track.
       </p>
-      <h2>Next Meet-up: Saturday 15th April, 8PM UK, 3PM Eastern.</h2>
+      <h2>Next Meet-up: Saturday 25th March, 8PM UK, 4PM Eastern.</h2>
       <p>
-        Scott and JennyK will be joined by PDexInTheLab, we'll be observing his creative flow as he rustles up a beat in one of the modern urban genres. It might be trap, it's definitely gonna slap.
+        Ask questions and get advice  as Scott and JennyK take questions from the community, with priority on folks who are just getting started. Questions big or small about REAPER, OSARA or anything around accessible recording are welcome. With a bit of luck, we can help if you're stuck.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">
