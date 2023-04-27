@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          We'll be making beats with guest host PDexInTheLab, starting in{" "}
+          A meet-up for open Q&A will be starting in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -64,9 +64,9 @@ function Offline({ nextStream }: OfflineProps) {
         hit refresh every few minutes just in case. That'll give any stray
         internet gremlins a bonk on the noggin and get you back on track.
       </p>
-      <h2>Next Meet-up: Saturday 15th April, 8PM UK, 3PM Eastern.</h2>
+      <h2>Next Meet-up: Saturday 29th April, 8PM UK, 3PM Eastern.</h2>
       <p>
-        Scott and JennyK will be joined by PDexInTheLab (the self-proclaimed laziest producer in the world). Join us to observe his creative flow as he rustles up a production in one of the modern urban subgenres. It might be Trap, it's definitely gonna slap.
+        Scott and JennyK will be hosting April's edition of "I'm Perplexed, What's Next?" This is a meet-up where you can ask absolutely anything about REAPER, OSARA, or accessible recording in general. We'll be online for a couple of hours, helping as many people as we can with as much as we can. All amounts of experience are welcome, and as usual, questions from newcomers are our top priority.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">
@@ -76,13 +76,13 @@ function Offline({ nextStream }: OfflineProps) {
       <p>
         Once the stream starts, there will be links to an accessible text chat
         where you can send us questions, and you'll be able to listen for
-        answers right here in your browser. Or if you'd prefer chewing the fat
+        answers right here in your browser. Or if you'd prefer to chew the fat
         with us in real-time, you can do that using a free accessible app called
         TeamTalk.
       </p>
       <p>
         <Link to="/TTQuickstart">Here's a collection of TeamTalk tips,</Link>{" "}
-        useful nuggets whether you're a first-timer or you'd like to spruce up
+        useful nuggets of guidance whether you're a first-timer or you'd like to spruce up
         your settings.
       </p>
       <h2>
@@ -95,10 +95,7 @@ function Offline({ nextStream }: OfflineProps) {
         affordable), we've got a form where you can send us a question.
       </p>
       <p>
-        Please only use the form if you won't be able to attend live. We'll
-        record the part of the meet-up where we answer questions relevant to the topic we're covering that have been
-        sent in from people who couldn't make it along, then post a recording on
-        RWP soon after.
+        Please only use the form if you won't be able to attend live. We'll record the part of the meet-up where we answer questions  that have been sent in from people who couldn't make it along, then post a recording on RWP soon after.
       </p>
       <p>
         <a

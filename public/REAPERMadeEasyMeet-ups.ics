@@ -19,93 +19,29 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED:20230201T005403Z
-LAST-MODIFIED:20230204T190010Z
-DTSTAMP:20230204T190010Z
-UID:28fca10a-d0db-4b18-93c0-b2ddcd762732
-SUMMARY:"I'm Perplexed\, What's Next?" live REAPER Accessibility Q&A
-X-MOZ-LASTACK:20230204T190010Z
-DTSTART;TZID=Europe/London:20230204T200000
-DTEND;TZID=Europe/London:20230204T220000
+CREATED:20230427T183651Z
+LAST-MODIFIED:20230427T184029Z
+DTSTAMP:20230427T184029Z
+UID:7bdca41a-5896-4dca-8f4e-08c51f5cc1cb
+SUMMARY:REAPER Made Easy live Q&A meet-up: I'm Perplexed\, What's Next?
+DTSTART;TZID=Europe/London:20230429T200000
+DTEND;TZID=Europe/London:20230429T220000
 TRANSP:OPAQUE
-LOCATION:TeamTalk or browser
+LOCATION:https://reaperteacher.com
 DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%20and%20JennyK%20will%20
- be%20online%20to%20answer%20questions%20about%20REAPER%2C%20%0AOSARA%20and%
- 20recording.%3C%2Fbody%3E":Scott and JennyK will be online to answer questi
- ons about REAPER\, OSARA and\nrecording.
-X-MOZ-GENERATION:1
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Default Mozilla Description
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-CREATED:20230221T011500Z
-LAST-MODIFIED:20230225T192219Z
-DTSTAMP:20230225T192219Z
-UID:1ac3d165-605c-4f6e-bfcf-3c3cff6ccecb
-SUMMARY:I'm Perplexed\, What's Next? Live REAPER Q&A for newcomers.
-X-MOZ-LASTACK:20230225T192219Z
-DTSTART;TZID=Europe/London:20230225T200000
-DTEND;TZID=Europe/London:20230225T220000
-TRANSP:OPAQUE
-LOCATION:https://reaperteacher.com
-DESCRIPTION;ALTREP="data:text/html,%3Cbody%3E%0A%3Cdiv%3ELive%20Q%26amp%3BA
- %20hosted%20by%20Scott%20and%20JennyK.%20%3Cbr%3E%0AQuestions%20about%20REA
- PER%2C%20OSARA%2C%20or%20anything%20around%20accessible%20recording%20%0Aar
- e%20welcome.%3C%2Fdiv%3E%0A%3C%2Fbody%3E":Live Q&A hosted by Scott and Jenn
- yK.\nQuestions about REAPER\, OSARA\, or anything around accessible recordi
- ng are welcome.\n
-X-MOZ-GENERATION:1
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Default Mozilla Description
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-CREATED:20230307T090249Z
-LAST-MODIFIED:20230311T190031Z
-DTSTAMP:20230311T190031Z
-UID:e9331205-8dcd-4852-b5d6-3532f32c748c
-SUMMARY:REAPER Accessibility Meet-up: Making Beats with PDexInTheLab
-X-MOZ-LASTACK:20230311T190031Z
-DTSTART;TZID=Europe/London:20230311T200000
-DTEND;TZID=Europe/London:20230311T220000
-TRANSP:OPAQUE
-LOCATION:https://reaperteacher.com
-DESCRIPTION;ALTREP="data:text/html,%3Cbody%3ECome%20along%20and%20listen%20
- in%20as%20PDexInTheLab%20(the%20self-proclaimed%20%0Alaziest%20producer%20i
- n%20the%20world)%20whips%20up%20a%20treat%20of%20a%20beat.%3C%2Fbody%3E":Co
- me along and listen in as PDexInTheLab (the self-proclaimed laziest produce
- r\nin the world) whips up a treat of a beat.
-X-MOZ-GENERATION:1
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Default Mozilla Description
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-CREATED:20230323T093150Z
-LAST-MODIFIED:20230323T093549Z
-DTSTAMP:20230323T093549Z
-UID:896f7c5b-79b3-44f1-9715-39be93d22f8e
-SUMMARY:"I'm Perplexed\, What's Next?" Live REAPER Accessibility Q&A
-DTSTART;TZID=Europe/London:20230325T200000
-DTEND;TZID=Europe/London:20230325T220000
-TRANSP:OPAQUE
-LOCATION:https://reaperteacher.com
-DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EJoin%20Scott%20and%20JennyK%20
- for%20a%20live%20Q%26amp%3BA%20session%20on%20REAPER%2C%20OSARA%2C%0A%20or%
- 20anything%20around%20accessible%20recording.%20Questions%20big%20or%20smal
- l%20are%20%0Awelcome%2C%20particularly%20if%20you're%20just%20getting%20sta
- rted.%20With%20a%20bit%20of%20%0Aluck%2C%20we%20can%20help%20if%20you're%20
- stuck.%3C%2Fbody%3E":Join Scott and JennyK for a live Q&A session on REAPER
- \, OSARA\, or anything\naround accessible recording. Questions big or small
-  are welcome\, particularly if\nyou're just getting started. With a bit of 
- luck\, we can help if you're stuck.
+ be%20hosting%20April's%20edition%20of%20%22I'm%20%0APerplexed%2C%20What's%2
+ 0Next%3F%22%20This%20is%20a%20meet-up%20where%20you%20can%20ask%20absolutel
+ y%20%0Aanything%20about%20REAPER%2C%20OSARA%2C%20or%20accessible%20recordin
+ g%20in%20general.%20We'll%20%0Abe%20online%20for%20a%20couple%20of%20hours%
+ 2C%20helping%20as%20many%20people%20as%20we%20can%20with%20%0Aas%20much%20a
+ s%20we%20can.%20All%20amounts%20of%20experience%20are%20welcome%2C%20and%20
+ as%20usual%2C%20%0Aquestions%20from%20newcomers%20are%20our%20top%20priorit
+ y.%3C%2Fbody%3E":Scott and JennyK will be hosting April's edition of "I'm P
+ erplexed\, What's\nNext?" This is a meet-up where you can ask absolutely an
+ ything about REAPER\,\nOSARA\, or accessible recording in general. We'll be
+  online for a couple of\nhours\, helping as many people as we can with as m
+ uch as we can. All amounts of\nexperience are welcome\, and as usual\, ques
+ tions from newcomers are our top priority.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
