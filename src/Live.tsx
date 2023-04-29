@@ -18,7 +18,7 @@ function Live({ ytUrl }: LiveProps) {
         We're online! All systems are go (so far as we know)
       </h1>
       <p>
-        Welcome to March's edition of I'm Perplexed, What's Next? If you're
+        Welcome to April's edition of I'm Perplexed, What's Next? If you're
         new to REAPER, this is where you can ask questions. Whatever is on your
         mind, be it questions big or small, if it's about REAPER, OSARA or
         accessible recording then we'll be happy to help.
