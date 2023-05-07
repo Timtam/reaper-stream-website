@@ -19,29 +19,44 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED:20230427T183651Z
-LAST-MODIFIED:20230427T184029Z
-DTSTAMP:20230427T184029Z
-UID:7bdca41a-5896-4dca-8f4e-08c51f5cc1cb
-SUMMARY:REAPER Made Easy live Q&A meet-up: I'm Perplexed\, What's Next?
-DTSTART;TZID=Europe/London:20230429T200000
-DTEND;TZID=Europe/London:20230429T220000
+CREATED:20230507T210133Z
+LAST-MODIFIED:20230507T210407Z
+DTSTAMP:20230507T210407Z
+UID:2741f4ff-d6f1-41e0-82b7-b3914b4f0913
+SUMMARY:Sound Design to Enrich Story-telling (a REAPER Made Easy meet-up)
+DTSTART;TZID=Europe/London:20230513T200000
+DTEND;TZID=Europe/London:20230513T220000
 TRANSP:OPAQUE
 LOCATION:https://reaperteacher.com
-DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%20and%20JennyK%20will%20
- be%20hosting%20April's%20edition%20of%20%22I'm%20%0APerplexed%2C%20What's%2
- 0Next%3F%22%20This%20is%20a%20meet-up%20where%20you%20can%20ask%20absolutel
- y%20%0Aanything%20about%20REAPER%2C%20OSARA%2C%20or%20accessible%20recordin
- g%20in%20general.%20We'll%20%0Abe%20online%20for%20a%20couple%20of%20hours%
- 2C%20helping%20as%20many%20people%20as%20we%20can%20with%20%0Aas%20much%20a
- s%20we%20can.%20All%20amounts%20of%20experience%20are%20welcome%2C%20and%20
- as%20usual%2C%20%0Aquestions%20from%20newcomers%20are%20our%20top%20priorit
- y.%3C%2Fbody%3E":Scott and JennyK will be hosting April's edition of "I'm P
- erplexed\, What's\nNext?" This is a meet-up where you can ask absolutely an
- ything about REAPER\,\nOSARA\, or accessible recording in general. We'll be
-  online for a couple of\nhours\, helping as many people as we can with as m
- uch as we can. All amounts of\nexperience are welcome\, and as usual\, ques
- tions from newcomers are our top priority.
+DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EJustin%20Macleod%20from%20Skyc
+ lad%20Sound%20will%20be%20in%20the%20hotseat%2C%20walking%20%0Aus%20through
+ %20how%20he%20handled%20a%20commission%20from%20our%20resident%20podcaster%
+ 20%0AJennyK.%20He%20was%20given%20the%20vocal%20elements%20and%20script%20f
+ or%20a%20magical%20realism%0A%20style%20scene%20featuring%20a%20non-human%2
+ 0character%2C%20asked%20to%20design%20the%20audio%20%0Aenvironment%20and%20
+ enrich%20the%20story.%20We'll%20be%20taking%20an%20in%20depth%20look%20at%2
+ 0%0Ahis%20processes%20from%20the%20get-go%20to%20the%20let-go%2C%20he'll%20
+ be%20doing%20some%20live%20%0Atweaks%20according%20to%20Jen's%20notes%2C%20
+ and%20at%20the%20end%20of%20the%20stream%2C%20we'll%20%0Acompare%20what%20J
+ ustin%20cooked%20up%20to%20Jen's%20homebrew%20version%20that%20was%20put%20
+ %0Atogether%20shortly%20after%20she%20finished%20writing%20the%20dialog.%20
+ If%20you've%20ever%20%0Awondered%20about%20what%20a%20dedicated%20sound%20d
+ esigner%20adds%20to%20a%20project%2C%20or%20%0Abeen%20curious%20about%20wha
+ t%20it%20might%20be%20like%20to%20have%20a%20sound%20designer%20bring%20%0A
+ your%20writing%20to%20life%2C%20this%20is%20the%20place%20to%20get%20some%2
+ 0insight%20into%20what%20%0Ahappens.%3C%2Fbody%3E":Justin Macleod from Skyc
+ lad Sound will be in the hotseat\, walking us through how\nhe handled a com
+ mission from our resident podcaster JennyK. He was given the\nvocal element
+ s and script for a magical realism style scene featuring a\nnon-human chara
+ cter\, asked to design the audio environment and enrich the story.\nWe'll b
+ e taking an in depth look at his processes from the get-go to the let-go\,\
+ nhe'll be doing some live tweaks according to Jen's notes\, and at the end 
+ of the\nstream\, we'll compare what Justin cooked up to Jen's homebrew vers
+ ion that was\nput together shortly after she finished writing the dialog. I
+ f you've ever\nwondered about what a dedicated sound designer adds to a pro
+ ject\, or been\ncurious about what it might be like to have a sound designe
+ r bring your writing\nto life\, this is the place to get some insight into 
+ what happens.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
