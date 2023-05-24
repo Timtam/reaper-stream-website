@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          Sound Design to Enrich Story-telling with Justin and JennyK starts in{" "}
+          A live Q&A with Scott and JennyK will be starting in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -64,9 +64,9 @@ function Offline({ nextStream }: OfflineProps) {
         hit refresh every few minutes just in case. That'll give any stray
         internet gremlins a bonk on the noggin and get you back on track.
       </p>
-      <h2>Next Meet-up: Saturday 13th May, 8PM UK, 3PM Eastern.</h2>
+      <h2>Next Meet-up: Saturday 27th May, 8PM UK, 3PM Eastern.</h2>
       <p>
-        Justin Macleod from Skyclad Sound will be in the hotseat, walking us through how he handled a commission from our resident podcaster JennyK. He was given the vocal elements and script for a magical realism style scene featuring a non-human character, asked to design the audio environment and enrich the story. We'll be taking an in depth look at his processes from the get-go to the let-go, he'll be doing some live tweaks according to Jen's notes, and at the end of the stream, we'll compare what Justin cooked up to Jen's homebrew version that was put together shortly after she finished writing the dialog. If you've ever wondered about what a dedicated sound designer adds to a project, or been curious about what it might be like to have a sound designer bring your writing to life, this is the place to get some insight into what happens.
+        Join Scott and JennyK for May's edition of "I'm Perplexed, What's Next", an open Q&A session where you can ask anything about REAPER, OSARA or accessible recording. Questions big or small are welcome from anyone with any amount of experience. They'll be online for a couple of hours, helping as many people with as much as they can until Scott's pizza is ready or Jen runs out of coffee.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">

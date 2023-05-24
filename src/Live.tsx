@@ -18,7 +18,8 @@ function Live({ ytUrl }: LiveProps) {
         We're online! All systems are go (so far as we know)
       </h1>
       <p>
-        Sound Design to Enrich Story-telling is running right now! Check below for links to listen.</p>
+        Live Q&A for the end of May is happening right now!
+		</p>
       <p>
         Jumping by heading will move through the various ways you can get in on
         the action.
@@ -96,8 +97,8 @@ function Live({ ytUrl }: LiveProps) {
       </p>
       <h2>We're live on YouTube as well!</h2>
       <p>
-        We're streaming audio live on YouTube as a backup. It has a slightly longer
-        delay, but hey, if none of the options above have worked out for you,
+        We're streaming audio live on YouTube too. It has a slightly longer
+        delay, but if none of the options above have worked out for you,
         it's worth a shot, YouTube works on pretty much everything.
       </p>
       <p>
