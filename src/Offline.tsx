@@ -59,10 +59,10 @@ function Offline({ nextStream }: OfflineProps) {
         ""
       )}
       <p>
-        This page should automatically update when the live session starts, but
+        This page should automatically update when we're live, but
         if you're sure something's starting right about now, you might want to
-        hit refresh every few minutes just in case. That'll give any stray
-        internet gremlins a bonk on the noggin and get you back on track.
+        hit refresh every few minutes, just to give any stray
+        internet gremlins a bonk on the noggin and get your browser back on track.
       </p>
       <h2>Next Meet-up: Saturday 27th May, 8PM UK, 3PM Eastern.</h2>
       <p>
