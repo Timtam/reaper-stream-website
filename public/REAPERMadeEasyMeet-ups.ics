@@ -20,10 +20,11 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 CREATED:20230507T210133Z
-LAST-MODIFIED:20230507T210407Z
-DTSTAMP:20230507T210407Z
+LAST-MODIFIED:20230513T180436Z
+DTSTAMP:20230513T180436Z
 UID:2741f4ff-d6f1-41e0-82b7-b3914b4f0913
 SUMMARY:Sound Design to Enrich Story-telling (a REAPER Made Easy meet-up)
+X-MOZ-LASTACK:20230513T180436Z
 DTSTART;TZID=Europe/London:20230513T200000
 DTEND;TZID=Europe/London:20230513T220000
 TRANSP:OPAQUE
@@ -57,6 +58,32 @@ DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EJustin%20Macleod%20from%20Skyc
  ject\, or been\ncurious about what it might be like to have a sound designe
  r bring your writing\nto life\, this is the place to get some insight into 
  what happens.
+X-MOZ-GENERATION:1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Default Mozilla Description
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230524T004507Z
+LAST-MODIFIED:20230524T004920Z
+DTSTAMP:20230524T004920Z
+UID:34bd3dc6-4ad8-4910-8e46-b3b817d65fd6
+SUMMARY:REAPER Made Easy Live Q&A
+DTSTART;TZID=Europe/London:20230527T200000
+DTEND;TZID=Europe/London:20230527T220000
+TRANSP:OPAQUE
+LOCATION:https://reaperteacher.com
+DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EJoin%20Scott%20and%20JennyK%20
+ for%20May's%20edition%20of%20%22I'm%20Perplexed%2C%20What's%20%0ANext%3F%22
+ %20A%20live%20Q%26amp%3BA%20session%20where%20you%20can%20ask%20anything%20
+ about%20REAPER%2C%20%0AOSARA%20or%20accessible%20recording.%20Questions%20b
+ ig%20or%20small%20from%20anyone%20with%20%0Aany%20amount%20of%20experience%
+ 20are%20welcome.%3C%2Fbody%3E":Join Scott and JennyK for May's edition of "
+ I'm Perplexed\, What's Next?" A live\nQ&A session where you can ask anythin
+ g about REAPER\, OSARA or accessible\nrecording. Questions big or small fro
+ m anyone with any amount of experience are\nwelcome.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
