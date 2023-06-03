@@ -8,7 +8,7 @@ interface LiveProps {
 function Live({ ytUrl }: LiveProps) {
   return (
     <>
-      <Head title="REAPER Accessibility Q&A" />
+      <Head title="REAPER Made Easy is live right now" />
       <h1
         tabIndex={-1}
         ref={(e) => {
@@ -18,7 +18,7 @@ function Live({ ytUrl }: LiveProps) {
         We're online! All systems are go (so far as we know)
       </h1>
       <p>
-        Live Q&A for the end of May is happening right now!
+        scott and JennyK are running Getting Started with EQ, right now!
 		</p>
       <p>
         Jumping by heading will move through the various ways you can get in on
