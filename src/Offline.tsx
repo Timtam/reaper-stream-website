@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          Getting Started with EQ is happening in{" "}
+          Live Q&A is starting in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -64,9 +64,9 @@ function Offline({ nextStream }: OfflineProps) {
         hit refresh every few minutes, just to give any stray
         internet gremlins a bonk on the noggin and get your browser back on track.
       </p>
-      <h2>Next Meet-up: Saturday 10th June, 8PM UK, 3PM Eastern.</h2>
+      <h2>Next Meet-up: Saturday 24th June, 8PM UK, 3PM Eastern.</h2>
       <p>
-        Join Scott and JennyK for Getting Started with EQ. They'll be demystifying a ton of terminology, showing plenty of practical examples, sharing some resources that'll be useful as you learn the ropes, and of course there will be breaks for Q&A along the way.
+        "I'm Perplexed, What's Next" is the session where you can ask Scott and JennyK questions about REAPER, OSARA, or pretty much anything around accessible recording. Newcomers with questions always get top priority, so drop in, tell us about what's tripping you up, we'll bust a gut to help you figure out what's next.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">

@@ -19,20 +19,28 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED:20230603T182201Z
-LAST-MODIFIED:20230603T182345Z
-DTSTAMP:20230603T182345Z
-UID:aa338dba-6bb5-496d-840e-16d3c5398d9e
-SUMMARY:Getting Started with EQ: a REAPER Made Easy meet-up
-DTSTART;TZID=Europe/London:20230610T200000
-DTEND;TZID=Europe/London:20230610T220000
+CREATED:20230612T130109Z
+LAST-MODIFIED:20230612T130422Z
+DTSTAMP:20230612T130422Z
+UID:bc27f8a2-dc38-4aa4-9c36-6f99ca8fdeef
+SUMMARY:REAPER accessibility Q&A: "I'm Perplexed\, What's Next?"
+DTSTART;TZID=Europe/London:20230624T200000
+DTEND;TZID=Europe/London:20230624T220000
 TRANSP:OPAQUE
 LOCATION:https://reaperteacher.com
-DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EJoin%20Scott%20and%20Jenny%20K
- %20as%20they%20demystify%20a%20bunch%20of%20stuff%20around%20%0AEQ%2C%20aim
- ing%20to%20help%20you%20get%20started%20with%20using%20it%20in%20your%20pro
- ductions.%3C%2Fbody%3E":Join Scott and Jenny K as they demystify a bunch of
-  stuff around EQ\, aiming to\nhelp you get started with using it in your pr
- oductions.
+DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%20and%20JennyK%20will%20
+ be%20answering%20your%20questions%20big%20and%20small%20%0Aaround%20REAPER%
+ 2C%20OSARA%20or%20accessible%20recording.%20Newcomers%20always%20get%20top%
+ 20%0Apriority%2C%20so%20if%20there's%20something%20tripping%20you%20up%2C%2
+ 0drop%20in%20and%20ask%20us%20%0Aabout%20it%2C%20we'll%20help%20you%20figur
+ e%20out%20what's%20next.%3C%2Fbody%3E":Scott and JennyK will be answering y
+ our questions big and small around REAPER\,\nOSARA or accessible recording.
+  Newcomers always get top priority\, so if there's\nsomething tripping you 
+ up\, drop in and ask us about it\, we'll help you figure\nout what's next.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Default Mozilla Description
+END:VALARM
 END:VEVENT
 END:VCALENDAR

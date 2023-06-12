@@ -4,7 +4,7 @@ function NotFound() {
   return (
     <>
       <Head title="Page Not Found" />
-      <p>The page you're looking for cannot be found.</p>
+      <p>Uh oh, seems there's nothing on this page. It's probably Shay's fault. Most things are.</p>
     </>
   );
 }
