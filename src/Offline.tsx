@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          Live Q&A is starting in{" "}
+          Getting Started with Compression will be happening in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -64,9 +64,9 @@ function Offline({ nextStream }: OfflineProps) {
         hit refresh every few minutes, just to give any stray
         internet gremlins a bonk on the noggin and get your browser back on track.
       </p>
-      <h2>Next Meet-up: Saturday 24th June, 8PM UK, 3PM Eastern.</h2>
+      <h2>Next Meet-up: Saturday 15th July, 8PM UK, 3PM Eastern.</h2>
       <p>
-        "I'm Perplexed, What's Next" is the session where you can ask Scott and JennyK questions about REAPER, OSARA, or pretty much anything around accessible recording. Newcomers with questions always get top priority, so drop in, tell us about what's tripping you up, we'll bust a gut to help you figure out what's next.
+        Join Scott, JennyK and Justin for Getting Started with Compression. In this session, we'll cover how the commonplace controls of compressors work, how to learn to listen for results and how to start using compression in a variety of musical and sound design contexts.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">
