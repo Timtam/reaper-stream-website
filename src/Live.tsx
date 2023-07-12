@@ -18,7 +18,7 @@ function Live({ ytUrl }: LiveProps) {
         We're online! All systems are go (so far as we know)
       </h1>
       <p>
-        Getting Started with Compression is running right now!
+        A live Q&A with Scott and JennyK is running right now!
 		</p>
       <p>
         Jumping by heading will move through the various ways you can get in on

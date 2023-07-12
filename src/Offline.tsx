@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          Getting Started with Compression will be happening in{" "}
+          A live Q&A with Scott and JennyK will be starting in{" "}
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -66,7 +66,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       <h2>Next Meet-up: Saturday 15th July, 8PM UK, 3PM Eastern.</h2>
       <p>
-        Join Scott, JennyK and Justin for Getting Started with Compression. In this session, we'll cover how the commonplace controls of compressors work, how to learn to listen for results and how to start using compression in a variety of musical and sound design contexts.
+        Join us for "I'm Perplexed, What's Next", the live meet-up where Scott and JennyK are on hand to answer questions about REAPER, OSARA, or pretty much anything around accessible recording and production. Questions from newcomers always get top priority in these sessions, it's a fun and friendly way to pick up new knowledge.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">
