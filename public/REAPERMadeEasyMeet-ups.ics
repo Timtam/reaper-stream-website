@@ -19,27 +19,25 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED:20230712T203140Z
-LAST-MODIFIED:20230727T165808Z
-DTSTAMP:20230727T165808Z
-UID:d55c3e5f-d02a-48e9-b23b-87b4a083e494
-SUMMARY:REAPER Accessibility Q&A
-X-MOZ-LASTACK:20230715T180005Z
-DTSTART;TZID=Europe/London:20230729T200000
-DTEND;TZID=Europe/London:20230729T220000
+CREATED:20230807T125458Z
+LAST-MODIFIED:20230807T125644Z
+DTSTAMP:20230807T125644Z
+UID:f1b7a057-c9f8-4e75-b767-fa05cedc38a4
+SUMMARY:Getting Started with Compression: REAPER Made Easy session
+DTSTART;TZID=Europe/London:20230812T200000
+DTEND;TZID=Europe/London:20230812T220000
 TRANSP:OPAQUE
 LOCATION:https://reaperteacher.com
-DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%20and%20JennyK%20will%20
- be%20on%20hand%20to%20answer%20your%20questions%20about%20%0AREAPER%2C%20OS
- ARA%2C%20or%20pretty%20much%20anything%20around%20accessible%20recording.%2
- 0%0AQuestions%20from%20newcomers%20always%20get%20top%20priority%20in%20the
- se%20sessions%2C%20it's%0A%20a%20fun%20and%20friendly%20way%20to%20acquire%
- 20new%20knowledge.%3C%2Fbody%3E":Scott and JennyK will be on hand to answer
-  your questions about REAPER\, OSARA\,\nor pretty much anything around acce
- ssible recording. Questions from newcomers\nalways get top priority in thes
- e sessions\, it's a fun and friendly way to\nacquire new knowledge.
-X-MOZ-GENERATION:2
-SEQUENCE:1
+DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%2C%20JennyK%20and%20Just
+ in%20are%20teaming%20up%20to%20help%20get%20you%20started%20%0Awith%20compr
+ ession.%20We'll%20be%20breaking%20down%20a%20bunch%20of%20terminology%2C%20
+ %0Afamiliarising%20you%20with%20the%20most%20commonly%20used%20controls%20a
+ nd%20of%20course%2C%20%0Athere%20will%20be%20plenty%20of%20audio%20to%20lis
+ ten%20to%20along%20the%20way%2C%20plus%20breaks%20%0Afor%20Q%26amp%3BA.%3C%
+ 2Fbody%3E":Scott\, JennyK and Justin are teaming up to help get you started
+  with\ncompression. We'll be breaking down a bunch of terminology\, familia
+ rising you\nwith the most commonly used controls and of course\, there will
+  be plenty of\naudio to listen to along the way\, plus breaks for Q&A.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
