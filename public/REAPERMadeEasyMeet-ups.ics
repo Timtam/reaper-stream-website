@@ -20,10 +20,11 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 CREATED:20230807T125458Z
-LAST-MODIFIED:20230807T125644Z
-DTSTAMP:20230807T125644Z
+LAST-MODIFIED:20230812T180005Z
+DTSTAMP:20230812T180005Z
 UID:f1b7a057-c9f8-4e75-b767-fa05cedc38a4
 SUMMARY:Getting Started with Compression: REAPER Made Easy session
+X-MOZ-LASTACK:20230812T180005Z
 DTSTART;TZID=Europe/London:20230812T200000
 DTEND;TZID=Europe/London:20230812T220000
 TRANSP:OPAQUE
@@ -38,6 +39,7 @@ DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%2C%20JennyK%20and%20Just
   with\ncompression. We'll be breaking down a bunch of terminology\, familia
  rising you\nwith the most commonly used controls and of course\, there will
   be plenty of\naudio to listen to along the way\, plus breaks for Q&A.
+X-MOZ-GENERATION:1
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
