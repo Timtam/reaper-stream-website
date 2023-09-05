@@ -46,4 +46,31 @@ TRIGGER:-PT1H
 DESCRIPTION:Default Mozilla Description
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+CREATED:20230905T013022Z
+LAST-MODIFIED:20230905T013201Z
+DTSTAMP:20230905T013201Z
+UID:17324a22-92d8-4c76-a3a9-bc2e406ff854
+SUMMARY:REAPER Made Easy: Getting Started with Audio Restoration
+DTSTART;TZID=Europe/London:20230909T200000
+DTEND;TZID=Europe/London:20230909T220000
+TRANSP:OPAQUE
+LOCATION:https://reaperteacher.com
+DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EDerek%20Lane%20is%20joining%20
+ us%20to%20lead%20a%20session%20on%20audio%20restoration.%20%0AHe'll%20be%20
+ sharing%20tips%20to%20help%20you%20capture%20the%20cleanest%20sources%20you
+ %20can%2C%20%0Athen%20diving%20into%20fixing%20up%20some%20dodgy%20and%20di
+ fficult%20audio%20using%20stock%2C%20%0Afree%20and%20cheap%20tools.%20Of%20
+ course%2C%20we'll%20have%20breaks%20for%20Q%26amp%3BA%20along%20the%0A%20wa
+ y.%3C%2Fbody%3E":Derek Lane is joining us to lead a session on audio restor
+ ation. He'll be\nsharing tips to help you capture the cleanest sources you 
+ can\, then diving into\nfixing up some dodgy and difficult audio using stoc
+ k\, free and cheap tools. Of\ncourse\, we'll have breaks for Q&A along the 
+ way.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Default Mozilla Description
+END:VALARM
+END:VEVENT
 END:VCALENDAR
