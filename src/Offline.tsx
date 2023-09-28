@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          Getting Started with Audio Restoration will be starting in
+          A live Q&A with Scott and JennyK will be starting in
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -64,9 +64,9 @@ function Offline({ nextStream }: OfflineProps) {
         hit refresh every few minutes, just to give any stray
         internet gremlins a bonk on the noggin and get your browser back on track.
       </p>
-      <h2>Next Meet-up: Saturday September 9th, 8PM UK, 3PM Eastern.</h2>
+      <h2>Next Meet-up: Saturday September 30th, 8PM UK, 3PM Eastern.</h2>
       <p>
-        Derek Lane is joining us to lead a session on audio restoration. He'll be sharing tips to help you capture the cleanest sources you can, then diving into fixing up some dodgy and difficult audio using stock, free and cheap tools. Of course, we'll have breaks for Q&A along the way.
+        Scott and JennyK will be online taking questions big or small about REAPER, OSARA and accessible production in general. Join us in a fun and friendly environment where you're almost certain to pick up some new tricks. Any amount of experience is welcome, questions from newcomers get top priority.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">

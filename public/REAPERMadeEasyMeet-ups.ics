@@ -19,54 +19,26 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED:20230807T125458Z
-LAST-MODIFIED:20230812T180005Z
-DTSTAMP:20230812T180005Z
-UID:f1b7a057-c9f8-4e75-b767-fa05cedc38a4
-SUMMARY:Getting Started with Compression: REAPER Made Easy session
-X-MOZ-LASTACK:20230812T180005Z
-DTSTART;TZID=Europe/London:20230812T200000
-DTEND;TZID=Europe/London:20230812T220000
+CREATED:20230928T143901Z
+LAST-MODIFIED:20230928T144050Z
+DTSTAMP:20230928T144050Z
+UID:fb3fb5b3-048a-42f7-a881-49d1015987a8
+SUMMARY:REAPER Made Easy: Live Q&A
+DTSTART;TZID=Europe/London:20230930T200000
+DTEND;TZID=Europe/London:20230930T220000
 TRANSP:OPAQUE
 LOCATION:https://reaperteacher.com
-DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%2C%20JennyK%20and%20Just
- in%20are%20teaming%20up%20to%20help%20get%20you%20started%20%0Awith%20compr
- ession.%20We'll%20be%20breaking%20down%20a%20bunch%20of%20terminology%2C%20
- %0Afamiliarising%20you%20with%20the%20most%20commonly%20used%20controls%20a
- nd%20of%20course%2C%20%0Athere%20will%20be%20plenty%20of%20audio%20to%20lis
- ten%20to%20along%20the%20way%2C%20plus%20breaks%20%0Afor%20Q%26amp%3BA.%3C%
- 2Fbody%3E":Scott\, JennyK and Justin are teaming up to help get you started
-  with\ncompression. We'll be breaking down a bunch of terminology\, familia
- rising you\nwith the most commonly used controls and of course\, there will
-  be plenty of\naudio to listen to along the way\, plus breaks for Q&A.
-X-MOZ-GENERATION:1
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Default Mozilla Description
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-CREATED:20230905T013022Z
-LAST-MODIFIED:20230905T013201Z
-DTSTAMP:20230905T013201Z
-UID:17324a22-92d8-4c76-a3a9-bc2e406ff854
-SUMMARY:REAPER Made Easy: Getting Started with Audio Restoration
-DTSTART;TZID=Europe/London:20230909T200000
-DTEND;TZID=Europe/London:20230909T220000
-TRANSP:OPAQUE
-LOCATION:https://reaperteacher.com
-DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EDerek%20Lane%20is%20joining%20
- us%20to%20lead%20a%20session%20on%20audio%20restoration.%20%0AHe'll%20be%20
- sharing%20tips%20to%20help%20you%20capture%20the%20cleanest%20sources%20you
- %20can%2C%20%0Athen%20diving%20into%20fixing%20up%20some%20dodgy%20and%20di
- fficult%20audio%20using%20stock%2C%20%0Afree%20and%20cheap%20tools.%20Of%20
- course%2C%20we'll%20have%20breaks%20for%20Q%26amp%3BA%20along%20the%0A%20wa
- y.%3C%2Fbody%3E":Derek Lane is joining us to lead a session on audio restor
- ation. He'll be\nsharing tips to help you capture the cleanest sources you 
- can\, then diving into\nfixing up some dodgy and difficult audio using stoc
- k\, free and cheap tools. Of\ncourse\, we'll have breaks for Q&A along the 
- way.
+DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%20and%20JennyK%20will%20
+ be%20online%20taking%20questions%20big%20or%20small%20%0Aabout%20REAPER%2C%
+ 20OSARA%20and%20accessible%20production%20in%20general.%20Join%20us%20in%20
+ a%20%0Afun%20and%20friendly%20environment%20where%20you're%20almost%20certa
+ in%20to%20pick%20up%20some%0A%20new%20tricks.%20Any%20amount%20of%20experie
+ nce%20is%20welcome%2C%20questions%20from%20%0Anewcomers%20get%20top%20prior
+ ity.%3C%2Fbody%3E":Scott and JennyK will be online taking questions big or 
+ small about REAPER\,\nOSARA and accessible production in general. Join us i
+ n a fun and friendly\nenvironment where you're almost certain to pick up so
+ me new tricks. Any amount\nof experience is welcome\, questions from newcom
+ ers get top priority.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
