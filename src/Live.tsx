@@ -18,7 +18,7 @@ function Live({ ytUrl }: LiveProps) {
         We're online! All systems are go (so far as we know)
       </h1>
       <p>
-        "I'm Perplexed, What's Next" is happening right now!
+        Writing and Recording a Song with Rusty is happening right now!
 		</p>
       <p>
         Jumping by heading will move through the various ways you can get in on
