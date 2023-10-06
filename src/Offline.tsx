@@ -69,16 +69,6 @@ function Offline({ nextStream }: OfflineProps) {
         Rusty Perez will be in the hotseat, we'll be listening in as he writes and records  a song based on a brief chosen from community submissions. A lot can happen in 4 days (Rusty's typical turnaround time for a commission), join us to follow along with the twists and turns.
       </p>
       <p>
-        If you want to help steer this session, you can 
-		<a
-          href="https://forms.office.com/r/shRb2f7hP1"
-          target="_blank"
-          rel="noreferrer"
-        >
-          fill out this form to send Rusty an idea (note, submissions close on 4th October, so do not dilly-dally).
-        </a>
-      </p>
-      <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">
           Add the meet-up to your calendar.
         </a>
