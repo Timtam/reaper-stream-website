@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          Writing and Recording a Song with Rusty will be starting in
+          A live Q&A with Scott and JennyK will be starting in
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -64,9 +64,9 @@ function Offline({ nextStream }: OfflineProps) {
         hit refresh every few minutes, just to give any stray
         internet gremlins a bonk on the noggin and get your browser back on track.
       </p>
-      <h2>Next Meet-up: Saturday October 14th, 8PM UK, 3PM Eastern.</h2>
+      <h2>Next Meet-up: Saturday October 28th, 8PM UK, 3PM Eastern, 12PM Pacific.</h2>
       <p>
-        Rusty Perez will be in the hotseat, we'll be listening in as he writes and records  a song based on a brief chosen from community submissions. A lot can happen in 4 days (Rusty's typical turnaround time for a commission), join us to follow along with the twists and turns.
+        Scott and JennyK will be online taking and answering as many of your questions as they can about REAPER, OSARA and accessibility in that space. All amounts of experience are welcome, newcomers get top priority during these sessions. It's a fun and friendly hang where we all learn together.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">

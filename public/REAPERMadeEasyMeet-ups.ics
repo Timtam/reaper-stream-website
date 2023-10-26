@@ -20,13 +20,13 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 CREATED:20230928T143901Z
-LAST-MODIFIED:20230930T180010Z
-DTSTAMP:20230930T180010Z
+LAST-MODIFIED:20231026T203323Z
+DTSTAMP:20231026T203323Z
 UID:fb3fb5b3-048a-42f7-a881-49d1015987a8
 SUMMARY:REAPER Made Easy: Live Q&A
 X-MOZ-LASTACK:20230930T180010Z
-DTSTART;TZID=Europe/London:20230930T200000
-DTEND;TZID=Europe/London:20230930T220000
+DTSTART;TZID=Europe/London:20231028T200000
+DTEND;TZID=Europe/London:20231028T220000
 TRANSP:OPAQUE
 LOCATION:https://reaperteacher.com
 DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%20and%20JennyK%20will%20
@@ -40,30 +40,8 @@ DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%20and%20JennyK%20will%20
  n a fun and friendly\nenvironment where you're almost certain to pick up so
  me new tricks. Any amount\nof experience is welcome\, questions from newcom
  ers get top priority.
-X-MOZ-GENERATION:1
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Default Mozilla Description
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-CREATED:20231002T003357Z
-LAST-MODIFIED:20231002T003623Z
-DTSTAMP:20231002T003623Z
-UID:bd3c0d97-57c6-4f65-9f43-dbe042df2bd5
-SUMMARY:Writing and Recording a Song with Rusty
-DTSTART;TZID=Europe/London:20231014T200000
-DTEND;TZID=Europe/London:20231014T220000
-TRANSP:OPAQUE
-LOCATION:https://reaperteacher.com
-DESCRIPTION;ALTREP="data:text/html,%3Cbody%3ERusty%20Perez%20is%20in%20the%
- 20hotseat%20this%20time%2C%20we'll%20be%20listening%20in%20as%20%0Ahe%20wri
- tes%20and%20records%20a%20song%20based%20on%20a%20brief%20chosen%20from%20c
- ommunity%20%0Asubmissions.%20Join%20us%20to%20follow%20the%20twists%20and%2
- 0turns!%3C%2Fbody%3E":Rusty Perez is in the hotseat this time\, we'll be li
- stening in as he writes and\nrecords a song based on a brief chosen from co
- mmunity submissions. Join us to\nfollow the twists and turns!
+X-MOZ-GENERATION:2
+SEQUENCE:1
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
