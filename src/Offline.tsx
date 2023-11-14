@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-          A live Q&A with Scott and JennyK will be starting in
+           Decor for "The House That Built Me", with guests Matt and Estelle will be starting in
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -64,9 +64,9 @@ function Offline({ nextStream }: OfflineProps) {
         hit refresh every few minutes, just to give any stray
         internet gremlins a bonk on the noggin and get your browser back on track.
       </p>
-      <h2>Next Meet-up: Saturday October 28th, 8PM UK, 3PM Eastern, 12PM Pacific.</h2>
+      <h2>Next Meet-up: Saturday November 18th, 8PM UK, 3PM Eastern, 12PM Pacific.</h2>
       <p>
-        Scott and JennyK will be online taking and answering as many of your questions as they can about REAPER, OSARA and accessibility in that space. All amounts of experience are welcome, newcomers get top priority during these sessions. It's a fun and friendly hang where we all learn together.
+        This month we're joined by guests Matt and Estelle, a guitarist and vocalist who posted an acoustic arrangement they've recorded in the REAPER Access WhatsApp group. Although they're both relatively new to recording themselves with REAPER, we reckon they've captured lightning in a bottle, so when it turned out they both had questions, we figured meeting with them on a stream would be a fun way to find them some answers. The song we'll be working on is a tasty brew of acoustic guitars, clean electric and vocals, everything recorded in home spaces. This is likely gonna be an all-rounder type session covering aspects of recording, editing, mixing, maybe a quick dabble in mastering if we get time, and of course, plenty of Q&A along the way.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">

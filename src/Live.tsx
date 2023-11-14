@@ -18,7 +18,7 @@ function Live({ ytUrl }: LiveProps) {
         We're online! All systems are go (so far as we know)
       </h1>
       <p>
-        A live Q&A with Scott and JennyK  is happening right now!
+        Decor for "The House that Built Me", with guests Matt and Estelle is happening right now!
 		</p>
       <p>
         Jumping by heading will move through the various ways you can get in on
