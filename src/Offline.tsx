@@ -64,9 +64,9 @@ function Offline({ nextStream }: OfflineProps) {
         hit refresh every few minutes, just to give any stray
         internet gremlins a bonk on the noggin and get your browser back on track.
       </p>
-      <h2>Next Meet-up: Saturday November 25th, 8PM UK, 3PM Eastern, 12PM Pacific.</h2>
+      <h2>Next Meet-up: Saturday December 16th, 8PM UK, 3PM Eastern, 12PM Pacific.</h2>
       <p>
-        Scott and JennyK will be online, taking and hopefully answering your questions about REAPER, OSARA, anything around accessible recording and production. It's a loose and friendly hang where we all learn together, any amount of experience is welcome and first-timers get our top priority.
+        Scott and JennyK will be online for a couple of hours, busting their guts to answer your questions about REAPER, OSARA, anything around accessible recording and production. It's a loose and friendly hang where we all learn together. Any amount of experience is welcome, and as usual, newcomers get our top priority.
       </p>
       <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">

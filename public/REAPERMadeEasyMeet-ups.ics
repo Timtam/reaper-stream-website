@@ -20,11 +20,11 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 CREATED:20230928T143901Z
-LAST-MODIFIED:20231120T213019Z
-DTSTAMP:20231120T213019Z
+LAST-MODIFIED:20231125T190016Z
+DTSTAMP:20231125T190016Z
 UID:fb3fb5b3-048a-42f7-a881-49d1015987a8
 SUMMARY:REAPER Made Easy: live Q&A
-X-MOZ-LASTACK:20231118T191810Z
+X-MOZ-LASTACK:20231125T190016Z
 DTSTART;TZID=Europe/London:20231125T200000
 DTEND;TZID=Europe/London:20231125T220000
 TRANSP:OPAQUE
@@ -39,8 +39,35 @@ DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%20and%20JennyK%20will%20
  estions\nabout REAPER\, OSARA\, anything around accessible recording and pr
  oduction. It's a\nloose and friendly hang where we all learn together\, any
   amount of experience is\nwelcome and first-timers get our top priority.
-X-MOZ-GENERATION:6
+X-MOZ-GENERATION:7
 SEQUENCE:3
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Default Mozilla Description
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231212T202309Z
+LAST-MODIFIED:20231212T202436Z
+DTSTAMP:20231212T202436Z
+UID:24d0aac8-84d6-4864-bf17-b5dd0da9240c
+SUMMARY:Live REAPER Q&A with Scott and JennyK
+DTSTART;TZID=Europe/London:20231216T200000
+DTEND;TZID=Europe/London:20231216T220000
+TRANSP:OPAQUE
+LOCATION:https://reaperteacher.com
+DESCRIPTION;ALTREP="data:text/html,%3Cbody%3EScott%20and%20JennyK%20will%20
+ be%20online%20for%20a%20couple%20of%20hours%2C%20busting%20%0Atheir%20guts%
+ 20to%20answer%20your%20questions%20about%20REAPER%2C%20OSARA%2C%20anything%
+ 20around%0A%20accessible%20recording%20and%20production.%20It's%20a%20loose
+ %20and%20friendly%20hang%20%0Awhere%20we%20all%20learn%20together.%20Any%20
+ amount%20of%20experience%20is%20welcome%2C%20and%20as%0A%20usual%2C%20newco
+ mers%20get%20our%20top%20priority.%3C%2Fbody%3E":Scott and JennyK will be o
+ nline for a couple of hours\, busting their guts to\nanswer your questions 
+ about REAPER\, OSARA\, anything around accessible recording\nand production
+ . It's a loose and friendly hang where we all learn together. Any\namount o
+ f experience is welcome\, and as usual\, newcomers get our top priority.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
