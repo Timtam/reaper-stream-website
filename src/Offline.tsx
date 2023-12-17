@@ -60,7 +60,7 @@ function Offline({ nextStream }: OfflineProps) {
       )}
       <p>
         <a
-          href="https://theglobalvoice.info/reaper"
+          href="https://www.dropbox.com/request/JaeWuNh5Yc5kqGkPsJyY"
           target="_blank"
           rel="noreferrer"
         >
@@ -79,7 +79,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       <p>
         <a
-          href="https://theglobalvoice.info/reaper"
+          href="https://www.dropbox.com/request/JaeWuNh5Yc5kqGkPsJyY"
           target="_blank"
           rel="noreferrer"
         >
@@ -92,9 +92,8 @@ function Offline({ nextStream }: OfflineProps) {
         </a>
       </p>
       <p>
-        Once the stream starts, there will be links to an accessible text chat
-        where you can send us questions, and you'll be able to listen for
-        answers right here in your browser. Or if you'd prefer to chew the fat
+        Once the stream starts, there will be a link to an accessible text chat
+        in your browser. Or if you'd prefer to chew the fat
         with us in real-time, you can do that using a free accessible app called
         TeamTalk.
       </p>
