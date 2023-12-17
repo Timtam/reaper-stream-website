@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-           A live Q&A with Scott and JennyK will be starting in
+           The last stream of the year, playing your productions will be starting in
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -59,16 +59,34 @@ function Offline({ nextStream }: OfflineProps) {
         ""
       )}
       <p>
+        <a
+          href="https://theglobalvoice.info/reaper"
+          target="_blank"
+          rel="noreferrer"
+        >
+          If you've produced something cool this year, send it in here, we'll give it a spin.
+        </a>{" "}
+      </p>
+      <p>
         This page should automatically update when we're live, but
         if you're sure something's starting right about now, you might want to
         hit refresh every few minutes, just to give any stray
         internet gremlins a bonk on the noggin and get your browser back on track.
       </p>
-      <h2>Next Meet-up: Saturday December 16th, 8PM UK, 3PM Eastern, 12PM Pacific.</h2>
+      <h2>Next Meet-up: Saturday December 30th, 8PM UK, 3PM Eastern.</h2>
       <p>
-        Scott and JennyK will be online for a couple of hours, busting their guts to answer your questions about REAPER, OSARA, anything around accessible recording and production. It's a loose and friendly hang where we all learn together. Any amount of experience is welcome, and as usual, newcomers get our top priority.
+         This time we'll be hanging out for a couple of hours, listening to productions that people in the community have made. 
       </p>
       <p>
+        <a
+          href="https://theglobalvoice.info/reaper"
+          target="_blank"
+          rel="noreferrer"
+        >
+          If you've produced something cool this year, send it in here, we'll give it a spin.
+        </a>{" "}
+      </p>
+               <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">
           Add the meet-up to your calendar.
         </a>
@@ -85,27 +103,6 @@ function Offline({ nextStream }: OfflineProps) {
         useful nuggets of guidance whether you're a first-timer or you'd like to spruce up
         your settings.
       </p>
-      <h2>
-        Even if you can't make the live session, you can still send us a
-        question.
-      </h2>
-      <p>
-        There's no such thing as a single time that'll suit everyone all over
-        the world, so to tide us over (just until time travel becomes
-        affordable), we've got a form where you can send us a question.
-      </p>
-      <p>
-        Please only use the form if you won't be able to attend live. We'll record the part of the meet-up where we answer questions  that have been sent in from people who couldn't make it along, then post a recording on RWP soon after.
-      </p>
-      <p>
-        <a
-          href="https://forms.office.com/r/T6wuYY7jE1"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Send us a question.
-        </a>
-      </p>
       <h3>Study up while you're waiting...</h3>
       <p>
         <a
@@ -118,7 +115,7 @@ function Offline({ nextStream }: OfflineProps) {
         </a>{" "}
       </p>
       <p>
-        With sponsorship from TGV Productions, all the educational goodies you'll find there are free
+        Thanks to our sponsorship from TGV Productions, all the educational goodies you'll find there are free
         for the taking.
       </p>
       {nextStream && countdown ? (
