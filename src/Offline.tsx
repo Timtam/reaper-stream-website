@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-           The last stream of the year, playing your productions will be starting in
+           The first I'm perplexed, what's next live stream of the year will start in
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -59,32 +59,17 @@ function Offline({ nextStream }: OfflineProps) {
         ""
       )}
       <p>
-        <a
-          href="https://www.dropbox.com/request/JaeWuNh5Yc5kqGkPsJyY"
-          target="_blank"
-          rel="noreferrer"
-        >
-          If you've produced something cool this year, send it in here, we'll give it a spin.
-        </a>{" "}
-      </p>
-      <p>
         This page should automatically update when we're live, but
         if you're sure something's starting right about now, you might want to
         hit refresh every few minutes, just to give any stray
         internet gremlins a bonk on the noggin and get your browser back on track.
       </p>
-      <h2>Next Meet-up: Saturday December 30th, 8PM UK, 3PM Eastern.</h2>
+      <h2>Next Meet-up: Saturday January 27th, 8PM UK, 3PM Eastern.</h2>
       <p>
-         This time we'll be hanging out for a couple of hours, listening to productions that people in the community have made. 
+         Scott and JennyK will be online for a couple of hours being as useful  as we can.  As always it will be mildly chaotic, hopefully helpful , and if nothing else, rather entertaining. 
       </p>
       <p>
-        <a
-          href="https://www.dropbox.com/request/JaeWuNh5Yc5kqGkPsJyY"
-          target="_blank"
-          rel="noreferrer"
-        >
-          If you've produced something cool this year, send it in here, we'll give it a spin.
-        </a>{" "}
+        {" "}
       </p>
                <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">
