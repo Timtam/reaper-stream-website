@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-           The first I'm perplexed, what's next live stream of the year will start in
+           The first live Q&A meet-up of the year will start in 
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
