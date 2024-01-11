@@ -18,7 +18,11 @@ function Live({ ytUrl }: LiveProps) {
         We're online! All systems are go (so far as we know)
       </h1>
       <p>
-        Welcome to March's stream, a march through the OSARA Configuration dialog. Today we're gonna be going through that sucker one option at a time, giving you a practical demo of the difference each option makes so you can tweak OSARA to your liking. Listen in, follow along, and of course, there'll be regular breaks for questions.
+        Welcome to March's stream, a march through the OSARA Configuration
+        dialog. Today we're gonna be going through that sucker one option at a
+        time, giving you a practical demo of the difference each option makes so
+        you can tweak OSARA to your liking. Listen in, follow along, and of
+        course, there'll be regular breaks for questions.
       </p>
       <p>
         Jumping by heading will move through the various ways you can get in on
@@ -48,8 +52,9 @@ function Live({ ytUrl }: LiveProps) {
       <p>https://laca.borris.me/reaperlive</p>
       <h2>Wanna ask us a question?</h2>
       <p>
-        We'll be taking periodic breaks throughout the stream for questions, comments and discussion. You can get a question to us using the accessible chat
-        right here in your browser
+        We'll be taking periodic breaks throughout the stream for questions,
+        comments and discussion. You can get a question to us using the
+        accessible chat right here in your browser
       </p>
       <p>
         <a
@@ -76,24 +81,21 @@ function Live({ ytUrl }: LiveProps) {
             Download and install TeamTalk.
           </a>
         </li>
-        <li>
-           On a mobile device, search your Appstore for TeamTalk.
-        </li>
+        <li>On a mobile device, search your Appstore for TeamTalk.</li>
         <li>
           Once you've got TeamTalk installed,{" "}
           <a
             href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
             rel="noopener"
           >
-            Click here to join the REAPER Live Meet-ups channel on a desktop or laptop.
+            Click here to join the REAPER Live Meet-ups channel on a desktop or
+            laptop.
           </a>
         </li>
         <li>
-          <a
-            href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F"
-            
-          >
-            Click here to join the REAPER Live Meet-ups channel on a mobile device.
+          <a href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F">
+            Click here to join the REAPER Live Meet-ups channel on a mobile
+            device.
           </a>
         </li>
       </ol>

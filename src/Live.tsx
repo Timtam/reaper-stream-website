@@ -17,9 +17,7 @@ function Live({ ytUrl }: LiveProps) {
       >
         We're online! All systems are go (so far as we know)
       </h1>
-      <p>
-        We're playing your productions right now!
-		</p>
+      <p>We're playing your productions right now!</p>
       <p>
         Jumping by heading will move through the various ways you can get in on
         the action.
@@ -76,14 +74,10 @@ function Live({ ytUrl }: LiveProps) {
             Download and install TeamTalk.
           </a>
         </li>
-        <li>
-           On a mobile device, search your Appstore for TeamTalk.
-        </li>
+        <li>On a mobile device, search your Appstore for TeamTalk.</li>
         <li>
           Once you've got TeamTalk installed,{" "}
-          <a
-            href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F"
-          >
+          <a href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F">
             Hit this link to join us in the REAPER Live Meet-up channel.
           </a>
         </li>
@@ -98,12 +92,10 @@ function Live({ ytUrl }: LiveProps) {
       <h2>We're live on YouTube as well!</h2>
       <p>
         We're streaming audio live on YouTube too. It has a slightly longer
-        delay, but if none of the options above have worked out for you,
-        it's worth a shot, YouTube works on pretty much everything.
+        delay, but if none of the options above have worked out for you, it's
+        worth a shot, YouTube works on pretty much everything.
       </p>
-      <p>
-              Feel fre to pop questions in YouTube chat, Shay will be watching.
-              </p>
+      <p>Feel fre to pop questions in YouTube chat, Shay will be watching.</p>
       <iframe
         width="560"
         height="315"

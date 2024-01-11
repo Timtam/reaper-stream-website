@@ -40,10 +40,7 @@ function TTQuickstart() {
       <p>
         Once you've got TeamTalk installed on your device, come back to this
         page and{" "}
-        <a
-          href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F"
-          
-        >
+        <a href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F">
           hit this link to join us in the channel.
         </a>
       </p>

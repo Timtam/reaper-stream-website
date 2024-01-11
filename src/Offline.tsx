@@ -49,7 +49,7 @@ function Offline({ nextStream }: OfflineProps) {
       </p>
       {nextStream && countdown ? (
         <p>
-           The first live Q&A meet-up of the year will start in 
+          The first live Q&A meet-up of the year will start in
           {humanizeDuration(countdown, {
             units: ["w", "d", "h", "m"],
             round: true,
@@ -59,33 +59,32 @@ function Offline({ nextStream }: OfflineProps) {
         ""
       )}
       <p>
-        This page should automatically update when we're live, but
-        if you're sure something's starting right about now, you might want to
-        hit refresh every few minutes, just to give any stray
-        internet gremlins a bonk on the noggin and get your browser back on track.
+        This page should automatically update when we're live, but if you're
+        sure something's starting right about now, you might want to hit refresh
+        every few minutes, just to give any stray internet gremlins a bonk on
+        the noggin and get your browser back on track.
       </p>
       <h2>Next Meet-up: Saturday January 27th, 8PM UK, 3PM Eastern.</h2>
       <p>
-         Scott and JennyK will be online for a couple of hours being as useful  as we can.  As always it will be mildly chaotic, hopefully helpful , and if nothing else, rather entertaining. 
+        Scott and JennyK will be online for a couple of hours being as useful as
+        we can. As always it will be mildly chaotic, hopefully helpful , and if
+        nothing else, rather entertaining.
       </p>
+      <p> </p>
       <p>
-        {" "}
-      </p>
-               <p>
         <a href="/REAPERMadeEasyMeet-ups.ics" target="_blank" rel="noreferrer">
           Add the meet-up to your calendar.
         </a>
       </p>
       <p>
         Once the stream starts, there will be a link to an accessible text chat
-        in your browser. Or if you'd prefer to chew the fat
-        with us in real-time, you can do that using a free accessible app called
-        TeamTalk.
+        in your browser. Or if you'd prefer to chew the fat with us in
+        real-time, you can do that using a free accessible app called TeamTalk.
       </p>
       <p>
         <Link to="/TTQuickstart">Here's a collection of TeamTalk tips,</Link>{" "}
-        useful nuggets of guidance whether you're a first-timer or you'd like to spruce up
-        your settings.
+        useful nuggets of guidance whether you're a first-timer or you'd like to
+        spruce up your settings.
       </p>
       <h3>Study up while you're waiting...</h3>
       <p>
@@ -99,8 +98,8 @@ function Offline({ nextStream }: OfflineProps) {
         </a>{" "}
       </p>
       <p>
-        Thanks to our sponsorship from TGV Productions, all the educational goodies you'll find there are free
-        for the taking.
+        Thanks to our sponsorship from TGV Productions, all the educational
+        goodies you'll find there are free for the taking.
       </p>
       {nextStream && countdown ? (
         <p>
