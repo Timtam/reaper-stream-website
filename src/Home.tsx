@@ -15,7 +15,7 @@ function Home() {
         let json = await res.json();
         if (
           json.icestats.source.some((s: any) =>
-            s.listenurl.endsWith("reaperlive")
+            s.listenurl.endsWith("reaperlive"),
           )
         )
           setLive(true);
