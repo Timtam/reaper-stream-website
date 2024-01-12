@@ -24,7 +24,7 @@ RUN npm install && npm run build
 FROM nginx:alpine
 
 # Copy files to the default nginx directory
-COPY --from=BUILD_IMAGE /app/build /usr/share/nginx/html
+COPY --from=BUILD_IMAGE /app/dist /usr/share/nginx/html
 COPY --from=RSS_BUILDER /usr/src/app/podcast-rss-generator/podcast_feed.xml /usr/share/nginx/html/rss.xml
 
 # Copy nginx host configuration
