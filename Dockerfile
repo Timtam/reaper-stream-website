@@ -13,7 +13,7 @@ COPY podcast_config.yaml /usr/src/app/podcast-rss-generator/
 RUN cd /usr/src/app/podcast-rss-generator && \
     python rss_generator.py
 
-FROM node:18 AS BUILD_IMAGE
+FROM node:20 AS BUILD_IMAGE
 
 WORKDIR /app
 
