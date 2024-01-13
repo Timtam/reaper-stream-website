@@ -67,12 +67,16 @@ function Offline({ nextEvent }: OfflineProps) {
                 internet gremlins a bonk on the noggin and get your browser back
                 on track.
             </p>
-            <h2>
-                Next Meet-up:{" "}
-                {nextEvent.date.toLocaleString(DateTime.DATETIME_FULL, {
-                    locale: "en",
-                })}
-            </h2>
+            {nextEvent && countdown ? (
+                <h2>
+                    Next Meet-up:{" "}
+                    {nextEvent.date.toLocaleString(DateTime.DATETIME_FULL, {
+                        locale: "en",
+                    })}
+                </h2>
+            ) : (
+                ""
+            )}
             <p>
                 Scott and JennyK will be online for a couple of hours being as
                 useful as we can. As always it will be mildly chaotic, hopefully
