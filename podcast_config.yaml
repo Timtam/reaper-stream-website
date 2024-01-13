@@ -1,27 +1,27 @@
 ---
 metadata:
-  title: REAPER Made Easy
-  description: |
-    A podcast about various topics. This block can be formatted using Markdown, with things like lists:
+    title: REAPER Made Easy
+    description: |
+        A podcast about various topics. This block can be formatted using Markdown, with things like lists:
 
-      * List item 1
-      * List item 2
-  language: en-us
-  link: http://example.com/podcast
-  itunes_image: http://example.com/images/podcast-cover.jpg
-  itunes_category: Technology
-  itunes_explicit: false
-  itunes_author: Author Name
-  itunes_email: contact@example.com
-  rss_feed_url: https://example.com/podcast_feed.xml
+          * List item 1
+          * List item 2
+    language: en-us
+    link: http://example.com/podcast
+    itunes_image: http://example.com/images/podcast-cover.jpg
+    itunes_category: Technology
+    itunes_explicit: false
+    itunes_author: Author Name
+    itunes_email: contact@example.com
+    rss_feed_url: https://example.com/podcast_feed.xml
 
 episodes:
-  - title: "Core Concepts with Justin and Scott"
-    description: "This is the *first* episode. You can also include [links](https://foobar.com)."
-    publication_date: "2023-02-01T10:00:00"
-    asset_url: "https://theglobalvoice.info/reaper_files/Core%20Concepts%20with%20Justin%20and%20Scott.mp3"
-    episode: 1
-    season: 1
-    episode_type: "full"
-    itunes_image: http://example.com/images/episode1.jpg
-    link: http://example.com/episode1
+    - title: "Core Concepts with Justin and Scott"
+      description: "This is the *first* episode. You can also include [links](https://foobar.com)."
+      publication_date: "2023-02-01T10:00:00"
+      asset_url: "https://theglobalvoice.info/reaper_files/Core%20Concepts%20with%20Justin%20and%20Scott.mp3"
+      episode: 1
+      season: 1
+      episode_type: "full"
+      itunes_image: http://example.com/images/episode1.jpg
+      link: http://example.com/episode1

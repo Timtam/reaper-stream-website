@@ -1,53 +1,61 @@
 {
-  "name": "reaperteacher",
-  "version": "0.1.0",
-  "homepage": "https://reaperteacher.com/",
-  "private": true,
-  "dependencies": {
-    "@types/node": "^20.11.0",
-    "@types/react": "^18.0.28",
-    "humanize-duration": "^3.28.0",
-    "ics": "^3.7.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0",
-    "react-router": "^6.8.1",
-    "react-router-dom": "^6.8.1",
-    "typescript": "^5.3.3",
-    "web-vitals": "^3.5.1"
-  },
-  "scripts": {
-    "start": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@types/humanize-duration": "^3.27.1",
-    "@types/react-dom": "^18.0.11",
-    "@types/react-helmet": "^6.1.6",
-    "@vitejs/plugin-react": "^4.2.1",
-    "prettier": "^3.2.1",
-    "prettier-plugin-organize-imports": "^3.2.2",
-    "vite": "^5.0.11",
-    "vite-plugin-svgr": "^4.2.0",
-    "vite-tsconfig-paths": "^4.2.3"
-  }
+    "name": "reaperteacher",
+    "version": "0.1.0",
+    "homepage": "https://reaperteacher.com/",
+    "type": "module",
+    "private": true,
+    "dependencies": {
+        "@types/node": "^20.11.0",
+        "@types/react": "^18.0.28",
+        "humanize-duration": "^3.28.0",
+        "luxon": "^3.4.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-helmet": "^6.1.0",
+        "react-router": "^6.8.1",
+        "react-router-dom": "^6.8.1",
+        "typescript": "^5.3.3",
+        "web-vitals": "^3.5.1"
+    },
+    "scripts": {
+        "start": "vite",
+        "prestart": "npx tsx --tsconfig ./tsconfig.scripts.json scripts/build-ics.ts",
+        "build": "tsc && vite build",
+        "prebuild": "npx tsx --tsconfig ./tsconfig.scripts.json scripts/build-ics.ts",
+        "serve": "vite preview"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@touch4it/ical-timezones": "^1.9.0",
+        "@types/humanize-duration": "^3.27.1",
+        "@types/luxon": "^3.4.0",
+        "@types/react-dom": "^18.0.11",
+        "@types/react-helmet": "^6.1.6",
+        "@vitejs/plugin-react": "^4.2.1",
+        "ical-generator": "^6.0.1",
+        "prettier": "^3.2.1",
+        "prettier-plugin-organize-imports": "^3.2.2",
+        "tsx": "^4.7.0",
+        "vite": "^5.0.11",
+        "vite-plugin-checker": "^0.6.2",
+        "vite-plugin-svgr": "^4.2.0",
+        "vite-tsconfig-paths": "^4.2.3"
+    }
 }

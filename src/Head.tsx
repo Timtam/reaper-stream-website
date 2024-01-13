@@ -1,15 +1,15 @@
-import Helmet from "react-helmet";
+import Helmet from "react-helmet"
 
 interface HeadProps {
-  title: string;
+    title: string
 }
 
 function Head({ title }: HeadProps) {
-  return (
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
-  );
+    return (
+        <Helmet>
+            <title>{title}</title>
+        </Helmet>
+    )
 }
 
-export default Head;
+export default Head
