@@ -70,9 +70,18 @@ function Offline({ nextEvent }: OfflineProps) {
             {nextEvent && countdown ? (
                 <h2>
                     Next Meet-up:{" "}
-                    {nextEvent.date.toLocaleString(DateTime.DATETIME_FULL, {
-                        locale: "en",
-                    })}
+                    {nextEvent.date.toLocaleString(
+                        {
+                            month: "long",
+                            day: "numeric",
+                            hour: "numeric",
+                            minute: "2-digit",
+                            timeZoneName: "short",
+                        },
+                        {
+                            locale: "en",
+                        },
+                    )}
                 </h2>
             ) : (
                 ""
