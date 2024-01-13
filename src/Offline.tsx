@@ -77,12 +77,7 @@ function Offline({ nextEvent }: OfflineProps) {
             ) : (
                 ""
             )}
-            <p>
-                Scott and JennyK will be online for a couple of hours being as
-                useful as we can. As always it will be mildly chaotic, hopefully
-                helpful , and if nothing else, rather entertaining.
-            </p>
-            <p> </p>
+            {nextEvent && countdown ? <p>{nextEvent.description}</p> : ""}
             <p>
                 <a
                     href="/REAPERMadeEasyNextEvent.ics"
