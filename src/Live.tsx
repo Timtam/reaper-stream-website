@@ -17,7 +17,7 @@ function Live({ ytUrl }: LiveProps) {
             >
                 We're online! All systems are go (so far as we know)
             </h1>
-            <p>We're playing your productions right now!</p>
+            <p>February's live Q&A is underway!</p>
             <p>
                 Jumping by heading will move through the various ways you can
                 get in on the action.
