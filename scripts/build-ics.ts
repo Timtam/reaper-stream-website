@@ -45,13 +45,16 @@ const main = () => {
 
     const eventService = new EventService()
 
-    writeFileSync(
-        "./public/REAPERMadeEasyNextEvent.ics",
-        generateCalendar([eventService.getNext()]).toString(),
-        {
-            encoding: "utf-8",
-        },
-    )
+    if (eventService.getNext() !== undefined) {
+        writeFileSync(
+            "./public/REAPERMadeEasyNextEvent.ics",
+            generateCalendar([eventService.getNext()]).toString(),
+            {
+                encoding: "utf-8",
+            },
+        )
+    }
+
     writeFileSync(
         "./public/REAPERMadeEasyAllEvents.ics",
         generateCalendar(eventService.getAll()).toString(),
