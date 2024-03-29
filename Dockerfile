@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 RUN apt-get update && \
     apt-get install -y ffmpeg && \
-    git clone https://github.com/vpetersson/podcast-rss-generator.git && \
+    git clone https://github.com/Timtam/podcast-rss-generator.git && \
     cd /usr/src/app/podcast-rss-generator/ && \
     pip install -r requirements.txt
 
