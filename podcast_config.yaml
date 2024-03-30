@@ -1,14 +1,13 @@
 ---
 metadata:
-  title: REAPER Made Easy
+  title: REAPER Made Easy1
   description: |
-    REAPER Made Easy Free Training from TGV Productions.  
-    REAPER is an accessible and affordable digital audio workstation (DAW). 
-    It can be used to compose, record, edit, mix and master pretty much any musical or audio-based thing you could name. 
-    In  this feed, you’ll find an expanding collection of free training content, all tailored toward using REAPER with screen reader software. We’re calling it the REAPER Made Easy project.
-    Produced by Scott Chesworth and Jenny K. Brennan.
-    Sponsored in part by TGV Production, community support and volunteer time. 
+    A podcast about various topics. This block can be formatted using Markdown, with things like lists:
+
+      * List item 1
+      * List item 2
   language: en-us
+
   link: https://www.theglobalvoice.info/reaper/
   itunes_image: http://example.com/images/podcast-cover.jpg
   itunes_category: Education
