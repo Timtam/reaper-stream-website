@@ -103,8 +103,10 @@ function Offline({ nextEvent }: OfflineProps) {
                 </a>
             </p>
             <p>
-                Once the stream starts, you'll be able to ask us questions in the YouTube chat, there will be links to listen in most media players, and you can also chew the fat with us in real-time using a free accessible
-                app called TeamTalk.
+            <h2>How to get involved...</h3>
+            <p>
+                We stream decent quality audio in a bunch of places. Once a stream starts, there will be links to listen in most media players, you can chew the fat with us in real-time using a free accessible
+                app called TeamTalk, and you'll be able to ask us questions in our YouTube chat.
             </p>
             <p>
                 <Link to="/TTQuickstart">
@@ -112,6 +114,17 @@ function Offline({ nextEvent }: OfflineProps) {
                 </Link>{" "}
                 useful nuggets of guidance whether you're a first-timer or you'd
                 like to spruce up your settings.
+            </p>
+            <h2>Wanna send us a question in advance?</h3>
+            <p>
+                <a
+                    href="https://forms.office.com/r/T6wuYY7jE1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Fill in this form to ask us a question in advance.
+                </a>
+            Time permitting, we try to cover questions that have been sent in on each Q&A.
             </p>
             <h3>Study up while you're waiting...</h3>
             <p>
