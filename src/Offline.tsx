@@ -63,9 +63,8 @@ function Offline({ nextEvent }: OfflineProps) {
             <p>
                 This page should automatically update when we're live, but if
                 you're sure something's starting right about now, you might want
-                to hit refresh every few minutes, just to give any stray
-                internet gremlins a bonk on the noggin and get your browser back
-                on track.
+                to hit refresh every few minutes just in case any stray
+                internet gremlins need a bonk on the noggin.
             </p>
             {nextEvent && countdown ? (
                 <h2>
@@ -104,9 +103,7 @@ function Offline({ nextEvent }: OfflineProps) {
                 </a>
             </p>
             <p>
-                Once the stream starts, there will be a link to an accessible
-                text chat in your browser. Or if you'd prefer to chew the fat
-                with us in real-time, you can do that using a free accessible
+                Once the stream starts, you'll be able to ask us questions in the YouTube chat, there will be links to listen in most media players, and you can also chew the fat with us in real-time using a free accessible
                 app called TeamTalk.
             </p>
             <p>

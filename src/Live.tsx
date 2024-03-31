@@ -22,8 +22,7 @@ function Live({ ytUrl }: LiveProps) {
                 Jumping by heading will move through the various ways you can
                 get in on the action.
             </p>
-            <h2>First, let's get the stream going</h2>
-            <p>Choose how you want to listen:</p>
+            <h2>Choose how you want to listen:</h2>
             <p>
                 <a
                     href="https://laca.borris.me/reaperlive"
@@ -47,21 +46,11 @@ function Live({ ytUrl }: LiveProps) {
             <p>https://laca.borris.me/reaperlive</p>
             <h2>Wanna ask us a question?</h2>
             <p>
-                The easiest way to get a question to us is by using the
-                accessible chat right here in your browser
-            </p>
-            <p>
-                <a
-                    href="https://chat.toni-barth.online/reaper"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    Join the text chat to type questions
-                </a>
-            </p>
+                We're taking questions via YouTube chat (text only), or via TeamTalk (text and voice).
+                            </p>
             <p>
                 If you've got a microphone hooked up or your device has one
-                in-built (laptops, phones and such), you can also hop on
+                in-built (laptops, phones and such), you can hop on
                 TeamTalk with us in three easy-ish steps. Here's how:
             </p>
             <ol>
@@ -95,13 +84,7 @@ function Live({ ytUrl }: LiveProps) {
             </p>
             <h2>We're live on YouTube as well!</h2>
             <p>
-                We're streaming audio live on YouTube too. It has a slightly
-                longer delay, but if none of the options above have worked out
-                for you, it's worth a shot, YouTube works on pretty much
-                everything.
-            </p>
-            <p>
-                Feel fre to pop questions in YouTube chat, Shay will be
+                Feel fre to type questions in the YouTube chat, Shay will be
                 watching.
             </p>
             <iframe
