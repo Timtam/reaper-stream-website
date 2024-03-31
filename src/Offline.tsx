@@ -102,8 +102,7 @@ function Offline({ nextEvent }: OfflineProps) {
                     Add all planned events to your calendar.
                 </a>
             </p>
-            <p>
-            <h2>How to get involved...</h3>
+            <h2>How to get involved...</h2>
             <p>
                 We stream decent quality audio in a bunch of places. Once a stream starts, there will be links to listen in most media players, you can chew the fat with us in real-time using a free accessible
                 app called TeamTalk, and you'll be able to ask us questions in our YouTube chat.
@@ -115,7 +114,7 @@ function Offline({ nextEvent }: OfflineProps) {
                 useful nuggets of guidance whether you're a first-timer or you'd
                 like to spruce up your settings.
             </p>
-            <h2>Wanna send us a question in advance?</h3>
+            <h2>Wanna send us a question in advance?</h2>
             <p>
                 <a
                     href="https://forms.office.com/r/T6wuYY7jE1"
