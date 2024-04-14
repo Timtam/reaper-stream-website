@@ -92,7 +92,7 @@ function Offline({ nextEvent }: OfflineProps) {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Add the meet-up to your calendar.
+                    Add the next meet-up to your calendar.
                 </a>
                 <a
                     href="/REAPERMadeEasyAllEvents.ics"
