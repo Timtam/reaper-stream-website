@@ -42,11 +42,11 @@ function TTQuickstart() {
             <p>
                 Once you've got TeamTalk installed on your device, come back to
                 this page and{" "}
-                <a href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F">
+                <a href="tt://tt.reaperteacher.com?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F">
                     hit this link to join us in the channel.
                 </a>
             </p>
-            <h3>Tips for Improving Audio on Mobile:</h3>
+            <h3>Tips for Improving Audio using TeamTalk on Mobile:</h3>
             <p>
                 These tips were kindly contributed by our guy Piotr who uses
                 iOS. So far as we know they hold up for Android too, but feel
@@ -54,9 +54,8 @@ function TTQuickstart() {
                 Android-specific things we should know.
             </p>
             <p>
-                Keep in mind that the tweaks below are optional. This is a Q&A
-                for folks who are learning the ropes, nobody is gonna judge if
-                your audio is a bit shabby. :)
+                Keep in mind that the tweaks below are entirely optional. This is a Q&A
+                for folks who are learning the ropes and nobody is gonna be judging your TeamTalk audio. :)
             </p>
             <ol>
                 <li>
