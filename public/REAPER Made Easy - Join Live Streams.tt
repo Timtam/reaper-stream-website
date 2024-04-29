@@ -2,7 +2,7 @@
 <teamtalk version="5.4">
     <host>
         <name>The Scott Spot</name>
-        <address>tamerock.co.uk</address>
+        <address>tt.reaperteacher.com</address>
         <tcpport>50000</tcpport>
         <udpport>50000</udpport>
         <encrypted>false</encrypted>
