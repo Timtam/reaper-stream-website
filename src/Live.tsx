@@ -1,11 +1,13 @@
+import Event from "./entities/event"
 import { Link } from "react-router-dom"
 import Head from "./Head"
 
 interface LiveProps {
     ytUrl: string
+    nextEvent?: Event
 }
 
-function Live({ ytUrl }: LiveProps) {
+function Live({ ytUrl, nextEvent}: LiveProps) {
     return (
         <>
             <Head title="REAPER Made Easy is live right now" />
@@ -17,7 +19,7 @@ function Live({ ytUrl }: LiveProps) {
             >
                 We're online! All systems are go (so far as we know)
             </h1>
-            <p>March's live Q&A is underway!</p>
+            <p>{nextEvent?.title} is underway!</p>
             <p>
                 Jumping by heading will move through the various ways you can
                 get in on the action.

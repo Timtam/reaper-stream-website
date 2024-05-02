@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+METHOD:PUBLISH
+NAME:REAPER Made Easy Meet-ups
+X-WR-CALNAME:REAPER Made Easy Meet-ups
+BEGIN:VTIMEZONE
+TZID:Europe/London
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+TIMEZONE-ID:Europe/London
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+UID:e5f3396d-30b7-4a4a-bd28-5de5970b2b07
+SEQUENCE:0
+DTSTAMP:20240502T210453
+DTSTART;TZID=Europe/London:20240525T200000
+DTEND;TZID=Europe/London:20240525T220000
+SUMMARY:REAPER Made Easy's May Q&A
+TRANSP:OPAQUE
+LOCATION:https://www.reaperteacher.com/
+DESCRIPTION:                Scott and JennyK will be online for a couple o
+ f hours answering questions about REAPER and OSARA. As always it will be a
+  loose hang where we all learn together\, mildly chaotic\, hopefully helpf
+ ul\, and if nothing else\, it's often entertaining.
+ORGANIZER;CN="Scott Chesworth":mailto:scottchesworth@gmail.com
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:REAPER Made Easy's May Q&A
+END:VALARM
+URL;VALUE=URI:https://www.reaperteacher.com/
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+CLASS:PUBLIC
+END:VEVENT
+END:VCALENDAR
