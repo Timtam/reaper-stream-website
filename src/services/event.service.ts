@@ -17,7 +17,7 @@ export default class EventService {
                     description: e.description,
                 } as Event
             })
-            .filter((e) => e.date >= now)
+            .filter((e) => e.date.plus({ hours: 4 }) >= now)
             .sort((a, b) => a.date.diff(b.date).toMillis())
     }
 
