@@ -60,11 +60,15 @@ function Offline({ nextEvent }: OfflineProps) {
             ) : (
                 ""
             )}
+            <h2>IMPORTANT: the address of our TeamTalk channel has changed.</h2>
             <p>
-                This page should automatically update when we're live, but if
-                you're sure something's starting right about now, you might want
-                to hit refresh every few minutes just in case any stray
-                internet gremlins need a bonk on the noggin.
+                If you like to join us on TeamTalk during streams, you'll either need to grab a new TT file or manually update host to tt.reaperteacher.com. The easiest way to update is to grab the file below.
+<a
+                        href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
+                        rel="noreferrer"
+                    >
+                        Download new TeamTalk details!
+                    </a>
             </p>
             {nextEvent && countdown ? (
                 <h2>
