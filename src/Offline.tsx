@@ -62,7 +62,7 @@ function Offline({ nextEvent }: OfflineProps) {
             )}
             <h2>IMPORTANT: the address of our TeamTalk channel has changed.</h2>
             <p>
-                If you like to join us on TeamTalk during streams, you'll either need to grab a new TT file or manually update host to tt.reaperteacher.com. The easiest way to update is to grab the file below.
+                If you enjoy joining us on TeamTalk during the Q&A meet-ups, you'll either need to grab a new TT file or manually update host to tt.reaperteacher.com. The easiest way to update is to grab the file below.
 <a
                         href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
                         rel="noreferrer"
@@ -118,17 +118,27 @@ function Offline({ nextEvent }: OfflineProps) {
                 useful nuggets of guidance whether you're a first-timer or you'd
                 like to spruce up your settings.
             </p>
-            <h2>Wanna send us a question in advance?</h2>
+			<h2>Wanna send us something to listen to on air?</h2>
             <p>
-                <a
+                Please only send one submission per person, per stream.
+				</p>
+				<p>
+				<a
+                    href="https://www.dropbox.com/request/mB2KhxVunzyItpkR0847"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Upload work in progress or a recent production if you want our feedback.
+                </a>
+</p>
+            <h2>Wanna send us a question in advance?</h2>
+				<a
                     href="https://forms.office.com/r/T6wuYY7jE1"
                     target="_blank"
                     rel="noreferrer"
                 >
                     Fill in this form to ask us a question in advance.
                 </a>
-            Time permitting, we try to cover questions that have been sent in on each Q&A.
-            </p>
             <h3>Study up while you're waiting...</h3>
             <p>
                 <a
