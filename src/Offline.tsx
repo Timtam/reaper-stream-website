@@ -63,7 +63,9 @@ function Offline({ nextEvent }: OfflineProps) {
             <h2>IMPORTANT: the address of our TeamTalk channel has changed.</h2>
             <p>
                 If you enjoy joining us on TeamTalk during the Q&A meet-ups, you'll either need to grab a new TT file or manually update host to tt.reaperteacher.com. The easiest way to update is to grab the file below.
-<a
+            </p>
+            <p>
+                <a
                         href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
                         rel="noreferrer"
                     >
