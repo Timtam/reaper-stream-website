@@ -24,7 +24,7 @@ function Live({ ytUrl, nextEvent}: LiveProps) {
                 Jumping by heading will move through the various ways you can
                 get in on the action.
             </p>
-            <h1>SUPER IMPORTANT: the address of our TeamTalk channel has changed.</h1>
+            <h2>SUPER IMPORTANT: the address of our TeamTalk channel has changed.</h2>
             <p>
                 If you like to join us on TeamTalk during streams, you'll either need to grab a new TT file or manually update host to tt.reaperteacher.com. The easiest way to update is to grab the file below.
 <a
@@ -79,7 +79,7 @@ function Live({ ytUrl, nextEvent}: LiveProps) {
                 <li>On a mobile device, search your Appstore for TeamTalk.</li>
                 <li>
                     Once you've got TeamTalk installed,{" "}
-                    <a href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F">
+                    <a href="tt://tt.reaperteacher.com?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F">
                         Hit this link to join us in the REAPER Live Meet-up
                         channel.
                     </a>
@@ -108,6 +108,19 @@ function Live({ ytUrl, nextEvent}: LiveProps) {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
             ></iframe>
+			<h2>Wanna send us something to listen to on air?</h2>
+            <p>
+                Please only send one submission per person, per stream.
+				</p>
+				<p>
+				<a
+                    href="https://www.dropbox.com/request/mB2KhxVunzyItpkR0847"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Upload work in progress or a recent production if you want our feedback.
+                </a>
+</p>
             <h3>Hungry for more?</h3>
             <p>
                 <a
