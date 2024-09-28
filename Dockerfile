@@ -3,7 +3,8 @@ FROM python:3.9 as RSS_BUILDER
 WORKDIR /usr/src/app
 
 RUN apt-get update && \
-    apt-get install -y ffmpeg && \
+    apt-get upgrade && \
+    apt-get install -y --no-install-recommends ca-certificates ffmpeg && \
     git clone https://github.com/Timtam/podcast-rss-generator.git && \
     cd /usr/src/app/podcast-rss-generator/ && \
     pip install -r requirements.txt
