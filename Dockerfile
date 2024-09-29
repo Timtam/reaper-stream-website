@@ -1,15 +1,18 @@
-FROM python:3.9 as RSS_BUILDER
+FROM python:3.12 as RSS_BUILDER
 
 WORKDIR /usr/src/app
 
 RUN apt-get update && \
     apt-get upgrade && \
-    apt-get install -y --no-install-recommends ca-certificates ffmpeg && \
+    apt-get install -y --no-install-recommends ffmpeg && \
     git clone https://github.com/Timtam/podcast-rss-generator.git && \
     cd /usr/src/app/podcast-rss-generator/ && \
     pip install -r requirements.txt
 
 COPY podcast_config.yaml /usr/src/app/podcast-rss-generator/
+COPY theglobalvoice.pem /usr/src/app/
+
+ENV REQUESTS_CA_BUNDLE=/usr/src/app/theglobalvoice.pem
 
 RUN cd /usr/src/app/podcast-rss-generator && \
     python rss_generator.py
