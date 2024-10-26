@@ -3,7 +3,7 @@ FROM python:3.12 as RSS_BUILDER
 WORKDIR /usr/src/app
 
 RUN apt-get update && \
-    apt-get upgrade && \
+    apt-get -y upgrade && \
     apt-get install -y --no-install-recommends ffmpeg && \
     git clone https://github.com/Timtam/podcast-rss-generator.git && \
     cd /usr/src/app/podcast-rss-generator/ && \
