@@ -62,15 +62,18 @@ function Offline({ nextEvent }: OfflineProps) {
             )}
             <h2>IMPORTANT: the address of our TeamTalk channel has changed.</h2>
             <p>
-                If you enjoy joining us on TeamTalk during the Q&A meet-ups, you'll either need to grab a new TT file or manually update host to tt.reaperteacher.com. The easiest way to update is to grab the file below.
+                If you enjoy joining us on TeamTalk during the Q&A meet-ups,
+                you'll either need to grab a new TT file or manually update host
+                to tt.reaperteacher.com. The easiest way to update is to grab
+                the file below.
             </p>
             <p>
                 <a
-                        href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
-                        rel="noreferrer"
-                    >
-                        Download new TeamTalk details!
-                    </a>
+                    href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
+                    rel="noreferrer"
+                >
+                    Download new TeamTalk details!
+                </a>
             </p>
             {nextEvent && countdown ? (
                 <h2>
@@ -110,8 +113,11 @@ function Offline({ nextEvent }: OfflineProps) {
             </p>
             <h2>How to get involved...</h2>
             <p>
-                We stream decent quality audio in a bunch of places. Once a stream starts, there will be links to listen in most media players, you can chew the fat with us in real-time using a free accessible
-                app called TeamTalk, and you'll be able to ask us questions in our YouTube chat.
+                We stream decent quality audio in a bunch of places. Once a
+                stream starts, there will be links to listen in most media
+                players, you can chew the fat with us in real-time using a free
+                accessible app called TeamTalk, and you'll be able to ask us
+                questions in our YouTube chat.
             </p>
             <p>
                 <Link to="/TTQuickstart">
@@ -120,27 +126,26 @@ function Offline({ nextEvent }: OfflineProps) {
                 useful nuggets of guidance whether you're a first-timer or you'd
                 like to spruce up your settings.
             </p>
-			<h2>Wanna send us something to listen to on air?</h2>
+            <h2>Wanna send us something to listen to on air?</h2>
+            <p>Please only send one submission per person, per stream.</p>
             <p>
-                Please only send one submission per person, per stream.
-				</p>
-				<p>
-				<a
+                <a
                     href="https://www.dropbox.com/request/mB2KhxVunzyItpkR0847"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Upload work in progress or a recent production if you want our feedback.
+                    Upload work in progress or a recent production if you want
+                    our feedback.
                 </a>
-</p>
+            </p>
             <h2>Wanna send us a question in advance?</h2>
-				<a
-                    href="https://forms.office.com/r/T6wuYY7jE1"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    Fill in this form to ask us a question in advance.
-                </a>
+            <a
+                href="https://forms.office.com/r/T6wuYY7jE1"
+                target="_blank"
+                rel="noreferrer"
+            >
+                Fill in this form to ask us a question in advance.
+            </a>
             <h3>Study up while you're waiting...</h3>
             <p>
                 <a

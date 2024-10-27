@@ -54,8 +54,9 @@ function TTQuickstart() {
                 Android-specific things we should know.
             </p>
             <p>
-                Keep in mind that the tweaks below are entirely optional. This is a Q&A
-                for folks who are learning the ropes and nobody is gonna be judging your TeamTalk audio. :)
+                Keep in mind that the tweaks below are entirely optional. This
+                is a Q&A for folks who are learning the ropes and nobody is
+                gonna be judging your TeamTalk audio. :)
             </p>
             <ol>
                 <li>

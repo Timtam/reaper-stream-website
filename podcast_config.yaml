@@ -20,9 +20,10 @@ metadata:
 
 episodes:
     - title: "Core Concepts with Justin and Scott"
-      description: "Join Scott Chesworth and Justin Macleod as they explain and illustrate the core concepts of a REAPER project. Whether this is your first foray into audio production or you’re considering switching over from some other recording software, this is where to start. There’s informative talk, there are working examples, it’s 18 minutes well spent.
-      
-        [Visit ReaperTeacher for more about our monthly Q&A and more](https://reaperteacher.com)."
+      description:
+          "Join Scott Chesworth and Justin Macleod as they explain and illustrate the core concepts of a REAPER project. Whether this is your first foray into audio production or you’re considering switching over from some other recording software, this is where to start. There’s informative talk, there are working examples, it’s 18 minutes well spent.
+
+          [Visit ReaperTeacher for more about our monthly Q&A and more](https://reaperteacher.com)."
       publication_date: "2023-02-01T10:00:00"
       asset_url: "https://theglobalvoice.info/reaper_files/Core%20Concepts%20with%20Justin%20and%20Scott.mp3"
       episode: 1

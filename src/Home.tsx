@@ -38,7 +38,8 @@ function Home() {
 
     if (loading) return <Loading />
 
-    if (live) return <Live ytUrl={config.ytUrl} nextEvent={eventService.getNext()} />
+    if (live)
+        return <Live ytUrl={config.ytUrl} nextEvent={eventService.getNext()} />
     else return <Offline nextEvent={eventService.getNext()} />
 }
 

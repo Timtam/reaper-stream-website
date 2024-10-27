@@ -7,7 +7,7 @@ interface LiveProps {
     nextEvent?: Event
 }
 
-function Live({ ytUrl, nextEvent}: LiveProps) {
+function Live({ ytUrl, nextEvent }: LiveProps) {
     return (
         <>
             <Head title="REAPER Made Easy is live right now" />
@@ -24,15 +24,21 @@ function Live({ ytUrl, nextEvent}: LiveProps) {
                 Jumping by heading will move through the various ways you can
                 get in on the action.
             </p>
-            <h2>SUPER IMPORTANT: the address of our TeamTalk channel has changed.</h2>
+            <h2>
+                SUPER IMPORTANT: the address of our TeamTalk channel has
+                changed.
+            </h2>
             <p>
-                If you like to join us on TeamTalk during streams, you'll either need to grab a new TT file or manually update host to tt.reaperteacher.com. The easiest way to update is to grab the file below.
-<a
-                        href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
-                        rel="noreferrer"
-                    >
-                        Download new TeamTalk details!
-                    </a>
+                If you like to join us on TeamTalk during streams, you'll either
+                need to grab a new TT file or manually update host to
+                tt.reaperteacher.com. The easiest way to update is to grab the
+                file below.
+                <a
+                    href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
+                    rel="noreferrer"
+                >
+                    Download new TeamTalk details!
+                </a>
             </p>
             <h2>Choose how you want to listen:</h2>
             <p>
@@ -58,12 +64,13 @@ function Live({ ytUrl, nextEvent}: LiveProps) {
             <p>https://laca.borris.me/reaperlive</p>
             <h2>Wanna ask us a question?</h2>
             <p>
-                We're taking questions via YouTube chat (text only), or via TeamTalk (text and voice).
-                            </p>
+                We're taking questions via YouTube chat (text only), or via
+                TeamTalk (text and voice).
+            </p>
             <p>
                 If you've got a microphone hooked up or your device has one
-                in-built (laptops, phones and such), you can hop on
-                TeamTalk with us in three easy-ish steps. Here's how:
+                in-built (laptops, phones and such), you can hop on TeamTalk
+                with us in three easy-ish steps. Here's how:
             </p>
             <ol>
                 <li>
@@ -108,19 +115,18 @@ function Live({ ytUrl, nextEvent}: LiveProps) {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
             ></iframe>
-			<h2>Wanna send us something to listen to on air?</h2>
+            <h2>Wanna send us something to listen to on air?</h2>
+            <p>Please only send one submission per person, per stream.</p>
             <p>
-                Please only send one submission per person, per stream.
-				</p>
-				<p>
-				<a
+                <a
                     href="https://www.dropbox.com/request/mB2KhxVunzyItpkR0847"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Upload work in progress or a recent production if you want our feedback.
+                    Upload work in progress or a recent production if you want
+                    our feedback.
                 </a>
-</p>
+            </p>
             <h3>Hungry for more?</h3>
             <p>
                 <a

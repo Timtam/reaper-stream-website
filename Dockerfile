@@ -1,4 +1,4 @@
-FROM python:3.12 as RSS_BUILDER
+FROM python:3.12 AS rss
 
 WORKDIR /usr/src/app
 
@@ -17,7 +17,7 @@ ENV REQUESTS_CA_BUNDLE=/usr/src/app/theglobalvoice.pem
 RUN cd /usr/src/app/podcast-rss-generator && \
     python rss_generator.py
 
-FROM node:20 AS BUILD_IMAGE
+FROM node:20 AS builder
 
 WORKDIR /app
 
@@ -25,11 +25,16 @@ COPY . /app
 
 RUN npm install && npm run build
 
-FROM nginx:alpine
+FROM alpine
+
+RUN apk update && \
+    apk add nginx nginx-mod-http-brotli
 
 # Copy files to the default nginx directory
-COPY --from=BUILD_IMAGE /app/dist /usr/share/nginx/html
-COPY --from=RSS_BUILDER /usr/src/app/podcast-rss-generator/podcast_feed.xml /usr/share/nginx/html/rss.xml
+COPY --from=builder /app/dist /usr/share/nginx/html
+COPY --from=rss /usr/src/app/podcast-rss-generator/podcast_feed.xml /usr/share/nginx/html/rss.xml
 
 # Copy nginx host configuration
-COPY nginx/default.conf /etc/nginx/conf.d/
+COPY nginx/default.conf /etc/nginx/http.d/default.conf
+
+CMD ["nginx", "-g", "daemon off;"]
