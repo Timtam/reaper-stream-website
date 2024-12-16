@@ -126,25 +126,24 @@ function Offline({ nextEvent }: OfflineProps) {
                 useful nuggets of guidance whether you're a first-timer or you'd
                 like to spruce up your settings.
             </p>
-            <h2>Wanna send us something to listen to on air?</h2>
-            <p>Please only send one submission per person, per stream.</p>
+            <h2>Wanna send us something to play during the end of year wrap up?</h2>
+            <p>Share your favourite thing you made with REAPER this year, we'll play a bunch of productions and give you a shout out. Feel free to upload a text file with any details you want people to know about what you've sent in.</p>
             <p>
                 <a
                     href="https://www.dropbox.com/request/mB2KhxVunzyItpkR0847"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Upload work in progress or a recent production if you want
-                    our feedback.
+                    Upload something for us to play.
                 </a>
             </p>
-            <h2>Wanna send us a question in advance?</h2>
+            <h2>Wanna send us a comment in advance?</h2>
             <a
                 href="https://forms.office.com/r/T6wuYY7jE1"
                 target="_blank"
                 rel="noreferrer"
             >
-                Fill in this form to ask us a question in advance.
+                Click here to leave us a comment if you can't join us live, we'll read some of them out during the stream.
             </a>
             <h3>Study up while you're waiting...</h3>
             <p>
