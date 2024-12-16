@@ -139,7 +139,7 @@ function Offline({ nextEvent }: OfflineProps) {
             </p>
             <h2>Wanna send us a comment in advance?</h2>
             <a
-                href="https://forms.office.com/r/T6wuYY7jE1"
+                href="https://forms.office.com/r/Q52jfhTyU8"
                 target="_blank"
                 rel="noreferrer"
             >
