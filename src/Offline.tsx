@@ -44,9 +44,8 @@ function Offline({ nextEvent }: OfflineProps) {
                 Welcome to the live leg of REAPER Made Easy!
             </h1>
             <p>
-                This is the landing page for meet-ups and live streams about
-                REAPER accessibility. Nobody is streaming at the moment, but
-                keep reading for details of the next event.
+                This is the landing page for meet-ups about
+                REAPER accessibility. Keep reading for details of what's coming up.
             </p>
             {nextEvent && countdown ? (
                 <p>
@@ -60,21 +59,6 @@ function Offline({ nextEvent }: OfflineProps) {
             ) : (
                 ""
             )}
-            <h2>IMPORTANT: the address of our TeamTalk channel has changed.</h2>
-            <p>
-                If you enjoy joining us on TeamTalk during the Q&A meet-ups,
-                you'll either need to grab a new TT file or manually update host
-                to tt.reaperteacher.com. The easiest way to update is to grab
-                the file below.
-            </p>
-            <p>
-                <a
-                    href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
-                    rel="noreferrer"
-                >
-                    Download new TeamTalk details!
-                </a>
-            </p>
             {nextEvent && countdown ? (
                 <h2>
                     Next Meet-up:{" "}
@@ -113,7 +97,7 @@ function Offline({ nextEvent }: OfflineProps) {
             </p>
             <h2>How to get involved...</h2>
             <p>
-                We stream decent quality audio in a bunch of places. Once a
+                We stream good quality audio in a bunch of places. Once a
                 stream starts, there will be links to listen in most media
                 players, you can chew the fat with us in real-time using a free
                 accessible app called TeamTalk, and you'll be able to ask us
@@ -126,24 +110,33 @@ function Offline({ nextEvent }: OfflineProps) {
                 useful nuggets of guidance whether you're a first-timer or you'd
                 like to spruce up your settings.
             </p>
-            <h2>Wanna send us something to play during the end of year wrap up?</h2>
-            <p>Share your favourite thing you made with REAPER this year, we'll play a bunch of productions and give you a shout out. Feel free to upload a text file with any details you want people to know about what you've sent in.</p>
+            <p>
+                <a
+                    href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
+                    rel="noreferrer"
+                >
+                    Download our TeamTalk details.
+                </a>
+            </p>
+            <h2>Send us something to listen to, get feedback.</h2>
+            <p>
+                During each Q&A session, we play a recent production or some work in progress and provide objective feedback. Send us a wave, flac or mp3 file using the link below.
             <p>
                 <a
                     href="https://www.dropbox.com/request/mB2KhxVunzyItpkR0847"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Upload something for us to play.
+                    Upload a file for feedback.
                 </a>
             </p>
-            <h2>Wanna send us a comment in advance?</h2>
+            <h2>Wanna send us a question in advance?</h2>
             <a
                 href="https://form.nirandas.com/f/75NiYmSdU7UUDNpcFFY4"
                 target="_blank"
                 rel="noreferrer"
             >
-                Click here to leave us a comment if you can't join us live, we'll read some of them out during the stream.
+                Click here to ask a question in advance if you can't join us live. We'll answer it during the session.
             </a>
             <h3>Study up while you're waiting...</h3>
             <p>
