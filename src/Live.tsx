@@ -24,35 +24,19 @@ function Live({ ytUrl, nextEvent }: LiveProps) {
                 Jumping by heading will move through the various ways you can
                 get in on the action.
             </p>
-            <h2>
-                SUPER IMPORTANT: the address of our TeamTalk channel has
-                changed.
-            </h2>
-            <p>
-                If you like to join us on TeamTalk during streams, you'll either
-                need to grab a new TT file or manually update host to
-                tt.reaperteacher.com. The easiest way to update is to grab the
-                file below.
-                <a
-                    href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
-                    rel="noreferrer"
-                >
-                    Download new TeamTalk details!
-                </a>
-            </p>
-            <h2>Choose how you want to listen:</h2>
+            <h2>Listen in your browser or a media player:</h2>
             <p>
                 <a
                     href="https://laca.borris.me/reaperlive"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Listen to the stream on mobile.
+                    Listen to the stream in your browser, usually best option on mobile devices.
                 </a>
             </p>
             <p>
                 <a href="https://laca.borris.me/reaperlive.m3u">
-                    Open the stream in your default media player.
+                    Open the stream in your default media player, usually best on desktop.
                 </a>
             </p>
             <p>
@@ -89,6 +73,15 @@ function Live({ ytUrl, nextEvent }: LiveProps) {
                     <a href="tt://tt.reaperteacher.com?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F">
                         Hit this link to join us in the REAPER Live Meet-up
                         channel.
+                    </a>
+                </li>
+                <li>
+                    Or if you prefer, 
+                    <a
+                        href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
+                        rel="noreferrer"
+                        >
+                        Download our TeamTalk details.
                     </a>
                 </li>
             </ol>
