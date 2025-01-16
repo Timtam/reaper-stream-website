@@ -121,6 +121,7 @@ function Offline({ nextEvent }: OfflineProps) {
             <h2>Send us something to listen to, get feedback.</h2>
             <p>
                 During each Q&A session, we play a recent production or some work in progress and provide objective feedback. Send us a wave, flac or mp3 file using the link below.
+            </p>
             <p>
                 <a
                     href="https://www.dropbox.com/request/mB2KhxVunzyItpkR0847"
