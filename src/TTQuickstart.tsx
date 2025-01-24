@@ -134,7 +134,7 @@ function TTQuickstart() {
                 If you've already got your config sorted and you'd prefer to add
                 the server we meet on manually, use these details.
             </p>
-            <p>Host: tamerock.co.uk</p>
+            <p>Host: tt.reaperteacher.com</p>
             <p>Ports: 50000</p>
             <p>Channel: REAPER Live Meet-up</p>
             <p>
@@ -143,8 +143,8 @@ function TTQuickstart() {
                 your existing settings:
             </p>
             <p>
-                <a href="tt://tamerock.co.uk?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F">
-                    Join the REAPER Live Meet-ups channel using your existing
+                <a href="tt://tt.reaperteacher.com?tcpport=50000&udpport=50000&encrypted=0&channel=%2FREAPER%20Live%20Meet-up%2F">
+                    Join the REAPER Live Meet-up channel using your existing
                     settings
                 </a>
             </p>
