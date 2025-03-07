@@ -31,3 +31,16 @@ episodes:
       episode_type: "full"
       itunes_image: https://theglobalvoice.info/reaper_files/podcast/Artwork/Episode%20Artwork.png
       link: https://www.theglobalvoice.info/reaper/
+
+    - title: "Getting Started with Compression"
+      description:
+          "Getting started with Compression. Lot's and lot's of compression.
+
+          [Visit ReaperTeacher for more about our monthly Q&A and more](https://reaperteacher.com)."
+      publication_date: "2023-03-01T10:00:00"
+      asset_url: "https://theglobalvoice.info/reaper_files/podcast/REAPER%20Made%20Easy%20-%20Getting%20Started%20with%20Compression.mp3"
+      episode: 2
+      season: 1
+      episode_type: "full"
+      itunes_image: https://theglobalvoice.info/reaper_files/podcast/Artwork/Episode%20Artwork.png
+      link: https://www.theglobalvoice.info/reaper/
