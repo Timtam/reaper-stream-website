@@ -1,21 +1,21 @@
 ---
 metadata:
-    title: REAPER Made Easy3
+    title: REAPER Made Easy
     description: |
         REAPER Made Easy: Free Training from TGV Productions
 
         REAPER is an accessible and affordable digital audio workstation (DAW). It can be used to compose, record, edit, mix and master pretty much any musical or audio-based thing you could name.
-        In  this feed, you’ll find an expanding collection of free training content, all tailored toward using REAPER with screen reader software. We’re calling it the REAPER Made Easy project.:
+        In  this feed, you’ll find an expanding collection of free training content, all tailored toward using REAPER with screen reader software. We’re calling it the REAPER Made Easy project.
 
-          * Scott Chesworth
-          * Jenny K. Brennan
+          Scott Chesworth
+          Jenny K. Brennan
     language: en-us
     link: https://www.theglobalvoice.info/reaper/
-    itunes_image: http://example.com/images/podcast-cover.jpg
+    itunes_image: https://theglobalvoice.info/reaper_files/podcast/Artwork/Show%20Cover.png
     itunes_category: Education
     itunes_explicit: false
     itunes_author: Reaper made Easy
-    itunes_email: training@theglobalvoice.info
+    itunes_email: reapermadeeasy@gmail.com
     rss_feed_url: https://reaperteacher.com/rss.xml
 
 episodes:
@@ -25,9 +25,21 @@ episodes:
 
           [Visit ReaperTeacher for more about our monthly Q&A and more](https://reaperteacher.com)."
       publication_date: "2023-02-01T10:00:00"
-      asset_url: "https://theglobalvoice.info/reaper_files/Core%20Concepts%20with%20Justin%20and%20Scott.mp3"
+      asset_url: "https://theglobalvoice.info/reaper_files/podcast/Core%20Concepts%20with%20Justin%20and%20Scott.mp3"
       episode: 1
       season: 1
       episode_type: "full"
-      itunes_image: http://example.com/images/episode1.jpg
+      itunes_image: https://theglobalvoice.info/reaper_files/podcast/Artwork/Episode%20Artwork.png
+      link: https://www.theglobalvoice.info/reaper/
+    - title: "Getting Started with Compression"
+      description:
+          "Getting started with Compression. Lot's and lot's of compression.
+
+          [Visit ReaperTeacher for more about our monthly Q&A and more](https://reaperteacher.com)."
+      publication_date: "2024-01-12T10:00:00"
+      asset_url: "https://theglobalvoice.info/reaper_files/podcast/REAPER%20Made%20Easy%20-%20Getting%20Started%20with%20Compression.mp3"
+      episode: 2
+      season: 1
+      episode_type: "full"
+      itunes_image: https://theglobalvoice.info/reaper_files/podcast/Artwork/Episode%20Artwork.png
       link: https://www.theglobalvoice.info/reaper/
