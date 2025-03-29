@@ -133,7 +133,7 @@ function Offline({ nextEvent }: OfflineProps) {
             </p>
             <h2>Wanna send us a question in advance?</h2>
             <a
-                href="https://form.upzak.com/f/75NiYmSdU7UUDNpcFFY4"
+                href="https://forms.office.com/r/T6wuYY7jE1"
                 target="_blank"
                 rel="noreferrer"
             >
