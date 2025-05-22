@@ -19,27 +19,15 @@ metadata:
     rss_feed_url: https://reaperteacher.com/rss.xml
 
 episodes:
-    - title: "Core Concepts with Justin and Scott"
+    - title: "01 - Reaper made Easy - What's this then? With Scott and JennyK "
       description:
-          "Join Scott Chesworth and Justin Macleod as they explain and illustrate the core concepts of a REAPER project. Whether this is your first foray into audio production or you’re considering switching over from some other recording software, this is where to start. There’s informative talk, there are working examples, it’s 18 minutes well spent.
-
+          "Welcome to the Reaper Made Easy Podcast where hosts Scott and JennyK attempt to describe what this podcast is, isn't, and might become.
           [Visit ReaperTeacher for more about our monthly Q&A and more](https://reaperteacher.com)."
-      publication_date: "2023-02-01T10:00:00"
-      asset_url: "https://theglobalvoice.info/reaper_files/podcast/Core%20Concepts%20with%20Justin%20and%20Scott.mp3"
-      episode: 1
+      publication_date: "2025-05-22T10:00:00"
+      asset_url: "https://theglobalvoice.info/reaper_files/podcast/01-ReaperMadeEasy.mp3"
+      episode: 0
       season: 1
       episode_type: "full"
       itunes_image: https://theglobalvoice.info/reaper_files/podcast/Artwork/Episode%20Artwork.png
       link: https://www.theglobalvoice.info/reaper/
-    - title: "Getting Started with Compression"
-      description:
-          "Getting started with Compression. Lot's and lot's of compression.
 
-          [Visit ReaperTeacher for more about our monthly Q&A and more](https://reaperteacher.com)."
-      publication_date: "2024-01-12T10:00:00"
-      asset_url: "https://theglobalvoice.info/reaper_files/podcast/REAPER%20Made%20Easy%20-%20Getting%20Started%20with%20Compression.mp3"
-      episode: 2
-      season: 1
-      episode_type: "full"
-      itunes_image: https://theglobalvoice.info/reaper_files/podcast/Artwork/Episode%20Artwork.png
-      link: https://www.theglobalvoice.info/reaper/
