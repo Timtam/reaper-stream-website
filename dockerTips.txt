@@ -1,0 +1,10 @@
+Building and testing podcast yaml and ReaperTeacher site locally:
+1. Install Docker desktop and choose add to path during install wizard. Keep the docker Desktop app open when doing the following steps.
+2. cd into reaper stream website repo.
+3. If you don't need to see the site locally, IE if you've only changed the podcast yaml file, this will try to build a container called rme.
+docker build . -t rme
+Assuming that completes, you can push.
+4. To use the site locally, build as per above, then do this to run a temporary container.
+docker run --rm -p 8000:80 rme
+Then open localhost:8000 in browser to use site.
+5. Control+C in command prompt to kill the container. As we used the --rm argument, it'll be automatically deleted.
