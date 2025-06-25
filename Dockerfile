@@ -17,7 +17,7 @@ ENV REQUESTS_CA_BUNDLE=/usr/src/app/theglobalvoice.pem
 RUN cd /usr/src/app/podcast-rss-generator && \
     python rss_generator.py
 
-FROM node:20 AS builder
+FROM node:22 AS builder
 
 WORKDIR /app
 

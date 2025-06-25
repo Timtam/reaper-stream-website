@@ -44,8 +44,8 @@ function Offline({ nextEvent }: OfflineProps) {
                 Welcome to the live leg of REAPER Made Easy!
             </h1>
             <p>
-                This is the landing page for meet-ups about
-                REAPER accessibility. Keep reading for details of what's coming up.
+                This is the landing page for meet-ups about REAPER
+                accessibility. Keep reading for details of what's coming up.
             </p>
             {nextEvent && countdown ? (
                 <p>
@@ -97,11 +97,11 @@ function Offline({ nextEvent }: OfflineProps) {
             </p>
             <h2>How to get involved...</h2>
             <p>
-                We stream good quality audio in a bunch of places. Once a
-                stream starts, there will be links to listen in most media
-                players, you can chew the fat with us in real-time using a free
-                accessible app called TeamTalk, and you'll be able to ask us
-                questions in our YouTube chat.
+                We stream good quality audio in a bunch of places. Once a stream
+                starts, there will be links to listen in most media players, you
+                can chew the fat with us in real-time using a free accessible
+                app called TeamTalk, and you'll be able to ask us questions in
+                our YouTube chat.
             </p>
             <p>
                 <Link to="/TTQuickstart">
@@ -120,7 +120,9 @@ function Offline({ nextEvent }: OfflineProps) {
             </p>
             <h2>Send us something to listen to, get feedback.</h2>
             <p>
-                During each Q&A session, we play a recent production or some work in progress and provide objective feedback. Send us a wave, flac or mp3 file using the link below.
+                During each Q&A session, we play a recent production or some
+                work in progress and provide objective feedback. Send us a wave,
+                flac or mp3 file using the link below.
             </p>
             <p>
                 <a
@@ -132,13 +134,10 @@ function Offline({ nextEvent }: OfflineProps) {
                 </a>
             </p>
             <h2>Wanna send us a question in advance?</h2>
-            <a
-                href="https://forms.office.com/r/T6wuYY7jE1"
-                target="_blank"
-                rel="noreferrer"
-            >
-                Click here to ask a question in advance if you can't join us live. We'll answer it during the session.
-            </a>
+            <Link to="/contact">
+                Click here to ask a question in advance if you can't join us
+                live. We'll answer it during the session.
+            </Link>
             <h3>Study up while you're waiting...</h3>
             <p>
                 <a

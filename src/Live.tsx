@@ -31,12 +31,14 @@ function Live({ ytUrl, nextEvent }: LiveProps) {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Listen to the stream in your browser, usually best option on mobile devices.
+                    Listen to the stream in your browser, usually best option on
+                    mobile devices.
                 </a>
             </p>
             <p>
                 <a href="https://laca.borris.me/reaperlive.m3u">
-                    Open the stream in your default media player, usually best on desktop.
+                    Open the stream in your default media player, usually best
+                    on desktop.
                 </a>
             </p>
             <p>
@@ -76,11 +78,11 @@ function Live({ ytUrl, nextEvent }: LiveProps) {
                     </a>
                 </li>
                 <li>
-                    Or if you prefer, 
+                    Or if you prefer,
                     <a
                         href="https://reaperteacher.com/REAPER%20Made%20Easy%20-%20Join%20Live%20Streams.tt"
                         rel="noreferrer"
-                        >
+                    >
                         Download our TeamTalk details.
                     </a>
                 </li>

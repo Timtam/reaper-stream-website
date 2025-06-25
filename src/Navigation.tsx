@@ -2,6 +2,7 @@ import { Suspense } from "react"
 import { Route, Routes } from "react-router-dom"
 import config from "./config.json"
 import EventService from "./services/event.service"
+import Contact from "./Contact"
 import Home from "./Home"
 import Live from "./Live"
 import Loading from "./Loading"
@@ -16,6 +17,7 @@ function Navigation() {
         <Suspense fallback={<Loading />}>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/contact" element={<Contact />} />
                 <Route path="/live" element={<Live ytUrl={config.ytUrl} />} />
                 <Route
                     path="/offline"
