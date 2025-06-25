@@ -21,8 +21,8 @@ export default function Contact() {
 
     return (
         <>
-            <Head title="Ask a question - REAPER Made Easy" />
-            <FA title="Ask a Question!" />
+            <Head title="Send us a question - REAPER Made Easy" />
+            <FA title="Send us a Question!" />
             <ResponseModal
                 response={response}
                 onClose={(clean) => {
@@ -42,7 +42,12 @@ export default function Contact() {
             <p>
                 <strong>
                     If you cannot attend the live Q&A session, send us a
-                    question and we will try to get to it
+                    question and we'll try to get to it.
+                </strong>
+                </p>
+                <p>
+                <strong>
+                    We check questions sent in via this form while we're setting up each session. If we're already on air, use YouTube chat or TeamTalk to reach us instead.
                 </strong>
             </p>
 
@@ -50,7 +55,9 @@ export default function Contact() {
                 <fieldset>
                     <legend>Your information</legend>
 
-                    <label htmlFor="name">Your Name:</label>
+                <p>
+                <strong>
+                                    <label htmlFor="name">Your Name:</label>
                     <input
                         type="text"
                         id="name"
@@ -60,7 +67,23 @@ export default function Contact() {
                         onChange={(e) => setName(e.currentTarget.value)}
                         value={name}
                     />
-
+                </strong>
+                </p>
+                
+                <p>
+                <strong>
+                                    <label htmlFor="message">Ask your question:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        required
+                        aria-required="true"
+                        onChange={(e) => setText(e.currentTarget.value)}
+                        value={text}
+                    ></textarea>
+                </strong>
+                </p>
+                
                     <p>
                         <strong>
                             Do you use Reaper and OSARA on Windows, Mac, or
@@ -107,16 +130,6 @@ export default function Contact() {
                             Both
                         </label>
                     </div>
-
-                    <label htmlFor="message">Ask your question:</label>
-                    <textarea
-                        id="message"
-                        name="message"
-                        required
-                        aria-required="true"
-                        onChange={(e) => setText(e.currentTarget.value)}
-                        value={text}
-                    ></textarea>
 
                     <ReCAPTCHA
                         sitekey="6Lei01krAAAAAKW9r1SK1OIqiZ8wfkZEPiJi9iKY"
