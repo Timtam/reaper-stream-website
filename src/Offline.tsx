@@ -145,12 +145,11 @@ function Offline({ nextEvent }: OfflineProps) {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Visit the REAPER Made Easy project for tutorials and
-                    recordings of previous streams.
+                    Visit our page on The Global Voice's site for demos, deep dives and artist spotlights.
                 </a>{" "}
             </p>
             <p>
-                Thanks to our sponsorship from TGV Productions, all the
+                Thanks to sponsorship from TGV Productions, all the
                 educational goodies you'll find there are free for the taking.
             </p>
             {nextEvent && countdown ? (
