@@ -1,4 +1,4 @@
-import { useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import ReCAPTCHA from "react-google-recaptcha"
 import { useNavigate } from "react-router-dom"
 import Head from "./Head"
@@ -57,7 +57,9 @@ export default function Contact() {
                     })
                 }}
                 onClosed={() => {
-                    recaptchaRef.current?.reset()
+                    setAltchaVerified(false)
+                    // @ts-expect-error altcha widget type not typed
+                    document.querySelector("altcha-widget")?.reset?.()
                 }}
             />
             <p>
