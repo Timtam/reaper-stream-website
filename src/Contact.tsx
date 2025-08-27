@@ -7,10 +7,10 @@ import FA from "./FocusAnchor"
 import Form from "react-bootstrap/Form"
 import Button from "react-bootstrap/Button"
 
+const API_KEY = "sf_7je16hcna2jnbdhbnh9ai2af"
+
 export default function Contact() {
     let navigate = useNavigate()
-    let [recaptchaToken, setRecaptchaToken] = useState<string | null>(null)
-    let recaptchaRef = useRef<ReCAPTCHA | null>(null)
     let [name, setName] = useState("")
     let [platform, setPlatform] = useState("Windows")
     let [text, setText] = useState("")
@@ -18,6 +18,27 @@ export default function Contact() {
         type: "" as "error" | "success" | "",
         message: "",
     })
+    let [altchaVerified, setAltchaVerified] = useState(false)
+
+    useEffect(() => {
+        import("altcha")
+
+        // Listen for Altcha verification
+        const interval = setInterval(() => {
+            const widget = document.querySelector("altcha-widget")
+            if (widget) {
+                widget.addEventListener("statechange", (e) => {
+                    // @ts-expect-error event type not typed
+                    if (e.detail.state === "verified") {
+                        setAltchaVerified(true)
+                    }
+                })
+                clearInterval(interval)
+            }
+        }, 100)
+
+        return () => clearInterval(interval)
+    }, [setAltchaVerified])
 
     return (
         <>
@@ -44,10 +65,12 @@ export default function Contact() {
                     If you cannot attend the live Q&A session, send us a
                     question and we'll try to get to it.
                 </strong>
-                </p>
-                <p>
+            </p>
+            <p>
                 <strong>
-                    We check questions sent in via this form while we're setting up each session. If we're already on air, use YouTube chat or TeamTalk to reach us instead.
+                    We check questions sent in via this form while we're setting
+                    up each session. If we're already on air, use YouTube chat
+                    or TeamTalk to reach us instead.
                 </strong>
             </p>
 
@@ -55,35 +78,35 @@ export default function Contact() {
                 <fieldset>
                     <legend>Your information</legend>
 
-                <p>
-                <strong>
-                                    <label htmlFor="name">Your Name:</label>
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        required
-                        aria-required="true"
-                        onChange={(e) => setName(e.currentTarget.value)}
-                        value={name}
-                    />
-                </strong>
-                </p>
-                
-                <p>
-                <strong>
-                                    <label htmlFor="message">Ask your question:</label>
-                    <textarea
-                        id="message"
-                        name="message"
-                        required
-                        aria-required="true"
-                        onChange={(e) => setText(e.currentTarget.value)}
-                        value={text}
-                    ></textarea>
-                </strong>
-                </p>
-                
+                    <p>
+                        <strong>
+                            <label htmlFor="name">Your Name:</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                aria-required="true"
+                                onChange={(e) => setName(e.currentTarget.value)}
+                                value={name}
+                            />
+                        </strong>
+                    </p>
+
+                    <p>
+                        <strong>
+                            <label htmlFor="message">Ask your question:</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                required
+                                aria-required="true"
+                                onChange={(e) => setText(e.currentTarget.value)}
+                                value={text}
+                            ></textarea>
+                        </strong>
+                    </p>
+
                     <p>
                         <strong>
                             Do you use Reaper and OSARA on Windows, Mac, or
@@ -131,18 +154,14 @@ export default function Contact() {
                         </label>
                     </div>
 
-                    <ReCAPTCHA
-                        sitekey="6Lei01krAAAAAKW9r1SK1OIqiZ8wfkZEPiJi9iKY"
-                        onChange={setRecaptchaToken}
-                        ref={recaptchaRef}
+                    <altcha-widget
+                        challengeurl={`https://www.staticforms.xyz/api/altcha/challenge?apiKey=${API_KEY}`}
+                        name="altchaToken"
+                        auto="onfocus"
                     />
 
                     <Button
-                        disabled={
-                            recaptchaToken === null ||
-                            text === "" ||
-                            name === ""
-                        }
+                        disabled={!altchaVerified || text === "" || name === ""}
                         onClick={async () => {
                             let res = await fetch(
                                 "https://api.staticforms.xyz/submit",
@@ -151,15 +170,13 @@ export default function Contact() {
                                     body: JSON.stringify({
                                         subject:
                                             "Reaper Teacher form submission",
-                                        recaptchaToken: recaptchaToken,
+                                        altchaToken:
+                                            document.forms[0].altchaToken.value,
                                         name: name,
-                                        apiKey: "sf_7je16hcna2jnbdhbnh9ai2af",
+                                        apiKey: API_KEY,
                                         $platform: platform,
                                         message: text,
                                     }),
-                                    headers: {
-                                        "Content-Type": "application/json",
-                                    },
                                 },
                             )
 
@@ -173,7 +190,7 @@ export default function Contact() {
                             } else {
                                 setResponse({
                                     type: "error",
-                                    message: json.message,
+                                    message: json.error,
                                 })
                             }
                         }}

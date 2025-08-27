@@ -145,12 +145,13 @@ function Offline({ nextEvent }: OfflineProps) {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Visit our page on The Global Voice's site for demos, deep dives and artist spotlights.
+                    Visit our page on The Global Voice's site for demos, deep
+                    dives and artist spotlights.
                 </a>{" "}
             </p>
             <p>
-                Thanks to sponsorship from TGV Productions, all the
-                educational goodies you'll find there are free for the taking.
+                Thanks to sponsorship from TGV Productions, all the educational
+                goodies you'll find there are free for the taking.
             </p>
             {nextEvent && countdown ? (
                 <p>
