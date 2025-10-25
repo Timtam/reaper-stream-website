@@ -21,6 +21,15 @@ function Live({ ytUrl, nextEvent }: LiveProps) {
             </h1>
             <p>{nextEvent?.title} is underway!</p>
             <p>
+                <a
+                    href="https://paypal.me/TGVTraining"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Support us to run sessions like this with PayPal if you can!
+                </a>
+            </p>
+            <p>
                 Jumping by heading will move through the various ways you can
                 get in on the action.
             </p>
