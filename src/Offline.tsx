@@ -48,18 +48,6 @@ function Offline({ nextEvent }: OfflineProps) {
                 accessibility. Keep reading for details of what's coming up.
             </p>
             {nextEvent && countdown ? (
-                <p>
-                    {nextEvent.title} will start in{" "}
-                    {humanizeDuration(countdown, {
-                        units: ["w", "d", "h", "m"],
-                        round: true,
-                    })}
-                    .
-                </p>
-            ) : (
-                ""
-            )}
-            {nextEvent && countdown ? (
                 <h2>
                     Next Meet-up:{" "}
                     {nextEvent.date.toLocaleString(
@@ -75,6 +63,18 @@ function Offline({ nextEvent }: OfflineProps) {
                         },
                     )}
                 </h2>
+            ) : (
+                ""
+            )}
+            {nextEvent && countdown ? (
+                <p>
+                    {nextEvent.title} will start in{" "}
+                    {humanizeDuration(countdown, {
+                        units: ["w", "d", "h", "m"],
+                        round: true,
+                    })}
+                    .
+                </p>
             ) : (
                 ""
             )}
@@ -100,8 +100,8 @@ function Offline({ nextEvent }: OfflineProps) {
                 We stream good quality audio in a bunch of places. Once a stream
                 starts, there will be links to listen in most media players, you
                 can chew the fat with us in real-time using a free accessible
-                app called TeamTalk, and you'll be able to ask us questions in
-                our YouTube chat.
+                app called TeamTalk, or you can ask us questions in
+                our YouTube chat, too.
             </p>
             <p>
                 <Link to="/TTQuickstart">
@@ -120,9 +120,10 @@ function Offline({ nextEvent }: OfflineProps) {
             </p>
             <h2>Send us something to listen to, get feedback.</h2>
             <p>
-                During each Q&A session, we play a recent production or some
+                During each meet-up, we play a recent production or some
                 work in progress and provide objective feedback. Send us a wave,
                 flac or mp3 file using the link below.
+                If there's anything you want us to know about what we're listening to, upload a text file as well.
             </p>
             <p>
                 <a
@@ -130,13 +131,13 @@ function Offline({ nextEvent }: OfflineProps) {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Upload a file for feedback.
+                    Upload files for feedback.
                 </a>
             </p>
             <h2>Wanna send us a question in advance?</h2>
             <Link to="/contact">
                 Click here to ask a question in advance if you can't join us
-                live. We'll answer it during the session.
+                live. Time permitting, we'll try to answer on the next meet-up.
             </Link>
             <h3>Study up while you're waiting...</h3>
             <p>
@@ -150,8 +151,33 @@ function Offline({ nextEvent }: OfflineProps) {
                 </a>{" "}
             </p>
             <p>
-                Thanks to sponsorship from TGV Productions, all the educational
-                goodies you'll find there are free for the taking.
+                All the educational goodies you'll find there are free for the taking, thanks to sponsorship from TGV Productions and attendees who send us support.
+            </p>
+            <h3>Can you help us keep REAPER Made Easy going?</h3>
+            <p>
+                Any support you can send in goes toward paying Q&A hosts a reasonable hourly rate. We pay guest trainers who contribute to deep-dive sessions fairly as well.
+                If you can’t support financially, spreading the word that this resource is here is also much appreciated.
+            </p>
+            <p>
+                <a
+                    href="https://paypal.me/TGVTraining"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Help prop us up with PayPal.
+                </a>{" "}
+            </p>
+            <p>
+                <a
+                    href="https://https://www.theglobalvoice.info/reaper/supporters/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Here's some other fine folk who have helped us along.
+                </a>{" "}
+            </p>
+            <p>
+                Thanks in advance for all support, however you get involved.
             </p>
             {nextEvent && countdown ? (
                 <p>
