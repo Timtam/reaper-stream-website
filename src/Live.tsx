@@ -21,15 +21,6 @@ function Live({ ytUrl, nextEvent }: LiveProps) {
             </h1>
             <p>{nextEvent?.title} is underway!</p>
             <p>
-                <a
-                    href="https://paypal.me/TGVTraining"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    Support us to run sessions like this with PayPal if you can!
-                </a>
-            </p>
-            <p>
                 Jumping by heading will move through the various ways you can
                 get in on the action.
             </p>
@@ -131,6 +122,20 @@ function Live({ ytUrl, nextEvent }: LiveProps) {
                     our feedback.
                 </a>
             </p>
+            <h3>Can you help us keep these meet-ups going?</h3>
+            <p>
+                Any support you can send in goes toward paying Q&A hosts a reasonable hourly rate.
+                If you can’t support financially, spreading the word that this resource is here is also much appreciated.
+            </p>
+            <p>
+                <a
+                    href="https://paypal.me/TGVTraining"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Chuck us some change on PayPal if you can.
+                </a>{" "}
+            </p>
             <h3>Hungry for more?</h3>
             <p>
                 <a
@@ -147,6 +152,15 @@ function Live({ ytUrl, nextEvent }: LiveProps) {
                 Huge thanks to TGV Productions for sponsoring these sessions, to
                 Toni Barth for the back-end bolstering, to Patrick Perdue for
                 the Icecast stream, and to Day Garwood for the TeamTalk server.
+            <p>
+                <a
+                    href="https://https://www.theglobalvoice.info/reaper/supporters/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Here's all our community supporters.
+                </a>{" "}
+            </p>
                 You wouldn't be hearing us today without sponsorship and support
                 from these people.
             </p>
