@@ -169,7 +169,7 @@ function Offline({ nextEvent }: OfflineProps) {
             </p>
             <p>
                 <a
-                    href="https://https://www.theglobalvoice.info/reaper/supporters/"
+                    href="https://www.theglobalvoice.info/reaper/supporters/"
                     target="_blank"
                     rel="noreferrer"
                 >
