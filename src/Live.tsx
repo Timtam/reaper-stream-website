@@ -154,7 +154,7 @@ function Live({ ytUrl, nextEvent }: LiveProps) {
                 the Icecast stream, and to Day Garwood for the TeamTalk server.
             <p>
                 <a
-                    href="https://https://www.theglobalvoice.info/reaper/supporters/"
+                    href="https://www.theglobalvoice.info/reaper/supporters/"
                     target="_blank"
                     rel="noreferrer"
                 >
